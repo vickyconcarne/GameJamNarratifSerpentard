@@ -11,9 +11,9 @@ namespace AdVd.GlyphRecognition
     {
         [Header("Time of day")]
         //In hours
-        public float currentTime;
-        public float maxTime;
-        public float minTime;
+        public int currentTime;
+        public int maxTime;
+        public int minTime;
         public Slider timeSlider;
         public GameObject clock;
         public List<Sprite> clockSprites = new List<Sprite>();
@@ -73,6 +73,7 @@ namespace AdVd.GlyphRecognition
         public List<GameObject> resultSymbols = new List<GameObject>();
         //Singleton
         public static GameLoopManager gameManagerInstance;
+        private bool initialized = false;
 
         // Start is called before the first frame update
         void Start()
@@ -100,6 +101,7 @@ namespace AdVd.GlyphRecognition
                 glyphDictionary.Add(g.ToString(), new Tuple<int, Glyph>(i, g));
                 i += 1;
             }
+            initialized = true;
         }
 
         private void UpdateSymbolCount()
@@ -141,7 +143,10 @@ namespace AdVd.GlyphRecognition
         // Update is called once per frame
         void Update()
         {
-            CheckIfGoToNextAlien();
+            if (initialized)
+            {
+                CheckIfGoToNextAlien();
+            }
         }
 
         public void AddNewSymbolToLayout(Glyph g)
@@ -384,32 +389,36 @@ namespace AdVd.GlyphRecognition
 
         public void ReduceTime()
         {
+            //StopCoroutine("HorlogeGonfle");
             if (currentTime > minTime)
             {
-                currentTime -= 0.5f;
+                currentTime -= 1;
             }
             else
             {
                 currentTime = 0;
             }
             timeSlider.value = currentTime;
+            StartCoroutine("HorlogeGonfle");
             audioPlayer.PlayOneShot(clockTickSound,0.8f);
         }
 
-        /*private IEnumerator HorlongeGonfle()
+        public IEnumerator HorlogeGonfle()
         {
-            float endScale = 1.5f;
-            float beginningScale = 1f;
+            Vector3 endScale = Vector3.one * 1.5f;
+            Vector3 beginningScale = Vector3.one * 1f;
             System.Action<ITween<Vector3>> updateSize = (t) =>
             {
-                clock.localScale = t.CurrentValue;
+                clock.transform.localScale = t.CurrentValue;
             };
 
             // completion defaults to null if not passed in
-            clock.Tween("scaleGo", clock.localScale, endScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
+            clock.Tween("scaleClock", clock.transform.localScale, endScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
+            clock.GetComponent<Image>().sprite = clockSprites[currentTime];
             yield return new WaitForSeconds(0.2f);
-            clock.Tween("scaleGo", clock.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
-        }*/
+            clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
+            yield return null;
+        }
 
         //TUPLE CLASS DECLARATION
 
