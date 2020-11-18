@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Nomsym
+  m_EditorClassIdentifier: 
+  symbolName: Nomsym
+  symbolIcon: {fileID: 21300000, guid: ce74380426ab84b98a40662f03682571, type: 3}
+  description: "Cat\xE9gorie regroupant les personnes sans domicile fixe, voyageant
+    \xE0 travers le ou les mondes, ne possedant pas biens immobiliers, transitant
+    sur Terre pour une dur\xE9e courte et d\xE9termin\xE9e, ne s\u2019apparentant
+    pas \xE0 une plan\xE8te ou une esp\xE8ce en particulier."
+  motsClefs: Nomade, voyageur, sans domicile fixe, en transit

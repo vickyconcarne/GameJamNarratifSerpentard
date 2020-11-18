@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Gynesym
+  m_EditorClassIdentifier: 
+  symbolName: Gynesym
+  symbolIcon: {fileID: 21300000, guid: bc555ca1282d143c5bf39bc7d8942351, type: 3}
+  description: "Relatif \xE0 la femme, \xE0 la personne de genre f\xE9minin, aux
+    cellules oosph\xE8res."
+  motsClefs: Fille, femme, femelle

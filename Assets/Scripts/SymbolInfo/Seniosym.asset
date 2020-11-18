@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Seniosym
+  m_EditorClassIdentifier: 
+  symbolName: Seniosym
+  symbolIcon: {fileID: 21300000, guid: 255b457d27c35474ca740bfe7699b887, type: 3}
+  description: "Cat\xE9gorie d\u2019\xE2ge regroupant les personnes ayant d\xE9pass\xE9
+    l\u2019\xE2ge de procr\xE9ation (m\xE9naupose, andropause etc), les personnes
+    consider\xE9es commes doyens de leur societ\xE9, les personnes commencant \xE0
+    d\xE9velopper des maladies d\xE9g\xE9n\xE9rative li\xE9es \xE0 l\u2019\xE2ge."
+  motsClefs: "Adulte, Force de l'age, Debut de d\xE9g\xE9n\xE9rescence"

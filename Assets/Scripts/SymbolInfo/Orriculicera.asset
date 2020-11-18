@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Orriculicera
+  m_EditorClassIdentifier: 
+  symbolName: Orriculicera
+  symbolIcon: {fileID: 0}
+  description: "Humano\xEFdes \xE0 cornes. Originaires de la plan\xE8te HD 114762
+    Ab. Composition physique : Bip\xE8des stationnant debout, (colorim\xE9trie dermique
+    variable pilosit\xE9 variable). La fourrure des Rohart est un marqueur social
+    indiquant le choix de genre social f\xE9minin (la fourrure chez les Roharts est
+    donc artificielle et ne pousse que suite \xE0 la prise d'un compl\xE9ment alimentaire).
+    Les cornes des Roharts peuvent \xEAtre de diff\xE9rentes formes et de diff\xE9rentes
+    tailles et correspondent \xE0 leur organe de l'Ouie (les cornes \xE9tant sensibles
+    au raisonnements de fr\xE9quences). Intersexuation de l'esp\xE8ce. Le nom et
+    le genre social est choisit et officialis\xE9 \xE0 la majorit\xE9 de l'individu
+    (20 ans) Il peut chang\xE9 au cours d'une vie si le rohart en fait la demande
+    mais les proc\xE9dures sont parfois longues et complexes. On forme et on encourage
+    les jeunes Roharts a faire un choix d\xE9finitif pour leur majorit\xE9. Mammif\xE8res
+    (2 \xE0 4 petits par port\xE9es)."
+  motsClefs: Rohart.s

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Anthoerectus
+  m_EditorClassIdentifier: 
+  symbolName: Anthoerectus
+  symbolIcon: {fileID: 21300000, guid: 9ca27aaabeddc49ad98a708f22c86550, type: 3}
+  description: "Humano\xEFdes v\xE9g\xE9taux du genre Anthoerectus. Originaires du
+    satellite Flora (orbitant autour de Alpha du Centaure). Les Chlorophylliens cohabitent
+    depuis longtemps avec les Alphees et sont donc tr\xE8s \xE0 l'aise dans leur
+    prises de contact avec les Terriens. Leur satellite est compos\xE9 \xE0 98 %
+    de for\xEAts (type de v\xE9g\xE9tation vari\xE9e : jungle, steppe, temp\xE9r\xE9e,
+    bor\xE9ale... etc) rendant leur population et leur biodiversit\xE9 tr\xE8s riche.
+    Ils ne paraissent pas choqu\xE9s par l'usage que l'humain a de sa propre Nature,
+    ne s'identifiant visiblement pas \xE0 cette v\xE9g\xE9tation \xE9trang\xE8re
+    et d\xE9pourvue d'enc\xE9phale. Composition physique : Arbre ou Fleur humano\xEFde
+    poussant directement du sol, taille adulte moyenne de 200 a 900 cm. Possibilit\xE9
+    d'ind\xE9pendance et de d\xE9racinage \xE0 la majorit\xE9 de l'individu (90 a
+    120 ans, selon les esp\xE8ces). Ils dispersent des spores qui d\xE9terminent
+    le type sexuel de l'individu (m\xE2le si producteur de pollens, femelle si producteur
+    d'ovules). Pas de dimorphisme sexuel. Reproduction par pollinisation."
+  motsClefs: "Chlorophyllien.ne.s, v\xE9g\xE9taux humano\xEFdes"

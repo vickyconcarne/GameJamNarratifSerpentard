@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Polycephalus
+  m_EditorClassIdentifier: 
+  symbolName: Polycephalus
+  symbolIcon: {fileID: 21300000, guid: be0a97bca094a403785587d94ae23c03, type: 3}
+  description: "Serpento\xEFdes \xE0 deux t\xEAtes du genre polycephalus. Originaires
+    de la plan\xE8te Koipou, les Pipous naissent avec une seule t\xEAte et ont besoin
+    de fusionner pour devenir des individus reproducteurs, reconnus par la societ\xE9.
+    Un pipou comporte donc deux esprits distincts et poss\xE8de un corps intersexe.
+    Les individus n'\xE9tant pas encore fusionn\xE9s sont de type m\xE2le ou de type
+    femelle et sont consider\xE9s comme des enfants n'ayant pas de droits citoyens.
+    Les pipous sont \xE0 priori l'une des esp\xE8ce les plus ancienne de l'Univers
+    avec les Kyphex et ce sont les premiers \xE0 avoir explor\xE9 l'espace et \xE0
+    avoir cr\xE9er des trous de vers artificiellement leur permettant de se d\xE9placer
+    d'une civilisation \xE0 l'autre."
+  motsClefs: Pipou.s
