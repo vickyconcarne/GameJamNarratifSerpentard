@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Androsym
+  m_EditorClassIdentifier: 
+  symbolName: Androsym
+  symbolIcon: {fileID: 21300000, guid: e2646b7c1abb34e59b36ef7d6e474f52, type: 3}
+  description: "Relatif \xE0 l'homme, \xE0 la personne de genre masculin, aux cellules
+    spermatiques."
+  motsClefs: "Gar\xE7on, homme, m\xE2le"

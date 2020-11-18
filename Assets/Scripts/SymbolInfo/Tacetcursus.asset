@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Tacetcursus
+  m_EditorClassIdentifier: 
+  symbolName: Tacetcursus
+  symbolIcon: {fileID: 21300000, guid: b7e454a30a4f548cc9eddd5db7273e9b, type: 3}
+  description: "Bip\xE8des sauriens originaires des lunes soeurs glaciales et ardentes
+    d'Ikshar. L'esp\xE8ce des Kyphex est tr\xE8s peu connue des autres membres de
+    la coalition spatiale. Pourtant, il s'agit d'une des soci\xE9t\xE9s les plus
+    anciennes de toute la galaxie, immobilis\xE9e par la guerre civile depuis des
+    mill\xE9naires. Il reste peu de gloire \xE0 remporter sur ces plan\xE8tes ravag\xE9es
+    par le conflit. Cette guerre est n\xE9e d'un d\xE9saccord sur le choix des leaders,
+    habituellement selectionn\xE9s selon la taille de leur piquants (symboles de
+    fertilit\xE9). Il faut savoir qu'un kyphex peut  vivre des si\xE8cles, mais on
+    ne voit la naissance d'un kyphex que tous les dix cycles solaires. Face \xE0
+    une victoire r\xE9cente de Pyrrhus, nombreux sont ceux ayant quitt\xE9s leur
+    culture d'enfance pour aller s'installer dans des recoins plus calmes de la galaxie:
+    la Terre semble \xEAtre un pied-\xE0-terre id\xE9al. Composition physique: bip\xE8des 
+    en station debout. Taille adulte 190 cm - 230 cm, avec caract\xE9ristiques d'oiseaux
+    au niveau du visage, mais cach\xE9 par des grands foulards traditionnels, pr\xE9sence
+    des piquants de l'arri\xE8re de la t\xEAte jusqu'au bas du dos. Trois combinaisons
+    chromosomiques possibles (paire XX: femelle ; paire XY: m\xE2le ; paire YY: m\xE2le
+    autre)."
+  motsClefs: Kyphex

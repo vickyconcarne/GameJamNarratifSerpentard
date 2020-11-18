@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Aquaderma
+  m_EditorClassIdentifier: 
+  symbolName: Aquaderma
+  symbolIcon: {fileID: 21300000, guid: 079b8b57cc28e4d83af227f9a6fac3be, type: 3}
+  description: "C\xE9phalopodes humano\xEFdes de type Aquaderma, originaires d'Atlantide,
+    une planete-oc\xE9an g\xE9ante (les membres de l'esp\xE8ce sont parfois \xE9galement
+    d\xE9sign\xE9 sous le nom de \xAB sir\xE8nes \xBB). Les Atlantes poss\xE8dent
+    huit pattes et quatre cerveaux (chacun d\xE9di\xE9 \xE0 des t\xE2ches distinctes).
+    Contrairement aux c\xE9phalopodes terriens, ce sont des mammif\xE8res. Ils vivent
+    essentiellement dans l'eau, mais poss\xE8dent des poumons leur permetant de vivre
+    et de se deplacer \xE0 la surface , pour peu que leur peau soit hydrat\xE9e r\xE9guli\xE8rement
+    (risque de brulure important dans le cas contraire). Il n'y a pas de distinction
+    entre le genre et le type sexuel chez les Atlantes, pour la simple raison que
+    l'appareil reproducteur n'a aucune influence ni sociale, ni physique (pas de
+    dimorphisme sexuel)."
+  motsClefs: Atlantes

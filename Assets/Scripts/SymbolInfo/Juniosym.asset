@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e74b325340bec9c40835ffcdfe6dac14, type: 3}
+  m_Name: Juniosym
+  m_EditorClassIdentifier: 
+  symbolName: Juniosym
+  symbolIcon: {fileID: 21300000, guid: 3dfffb8dc44704e529681d2c7ae0d43f, type: 3}
+  description: "Cat\xE9gorie d\u2019\xE2ge allant de la naissance \xE0 la pubert\xE9
+    et concernant des \xEAtres jeunes, en formation, encore d\xE9pendants d\u2019une
+    aide ext\xE9rieure et d\u2019une prise en charge. Cr\xE9atures juveniles n'ayant
+    pas atteint la taille et les caracteristique adulte. Etat embryonnaire. "
+  motsClefs: "Enfant, mineur, b\xE9b\xE9"
