@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Liarin'
+  m_EditorClassIdentifier: 
+  name: Liarin'
+  characterPrefab: {fileID: 4518635339104159647, guid: 052024bede707d84bb9b8a8bb56a884f, type: 3}
+  talkSound: {fileID: 0}
+  happySound: {fileID: 0}
+  angrySound: {fileID: 0}
+  positiveSymbols:
+  - asym
+  - natusym
+  - creasym
+  - iasiomorpha
+  negativeSymbols:
+  - refusym
+  numberOfCorrectSymbolsToBeSatisfied: 3
+  introductionDialogue: "Salut terrien, je m'appelle Liarin' et je suis Alphee. Je
+    suis artisanne-jardinier \t et j'aimerai travailler \xE0 New Kinshasa, dans la
+    culture des tomates.\t"
+  additionalInformationDialogue:
+  - 'Les artisanne-jardiniers greffent, cultivent et sculptent les plantes. '
+  - Je suis venu.e sur Terre car je me suis pris.e de passion pour les tomates, je
+    ne peux plus vivre sans elles.
+  - "Je viens d'Alpha du Centaure. Je suis issu.e de la parth\xE9nogenese d'un alph\xE9e
+    nomm\xE9 Krishh'"
+  additionalQuestion:
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - Dites m'en plus sur  votre metier
+  - Dites m'en plus sur les tomates

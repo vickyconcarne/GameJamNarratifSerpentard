@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Jin Kyung
+  m_EditorClassIdentifier: 
+  name: (en cours de choix)
+  characterPrefab: {fileID: 4518635339104159647, guid: 0e85760e79076da449659a21ef9e3379, type: 3}
+  talkSound: {fileID: 0}
+  happySound: {fileID: 0}
+  angrySound: {fileID: 0}
+  positiveSymbols:
+  - androsym
+  - asym
+  - suspsym
+  - creasym
+  - orriculicera
+  negativeSymbols:
+  - gynesym
+  - cornsym
+  - juniosym
+  numberOfCorrectSymbolsToBeSatisfied: 3
+  introductionDialogue: "B'jour. J'viens d'la planete HD 114762 Ab. Je serais bient\xF4t
+    majeur et je pense choisir le pr\xE9nom terrien  Jin kyung. C'est un bon nom
+    pour une star de la musique non ?"
+  additionalInformationDialogue:
+  - Bah, HD 114762 Ab, c'est la planete des Roharts. Voila.
+  - "J'ai hate de pouvoir annonc\xE9 a tout le monde que je suis un m\xE2le, mais
+    je doits attendre mon 20e anniversaire."
+  - "Je suis encore en etude mais j'esp\xE8re devenir une star de corneflute dans
+    un groupe de K-Pop"
+  additionalQuestion:
+  - Dites m'en plus sur votre planete
+  - "Dites m'en plus sur  votre majorit\xE9"
+  - Dites m'en plus sur la musique

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Alioune
+  m_EditorClassIdentifier: 
+  name: Alioune
+  characterPrefab: {fileID: 4518635339104159647, guid: 08074517200df544f8e184b50a3a487e, type: 3}
+  talkSound: {fileID: 0}
+  happySound: {fileID: 0}
+  angrySound: {fileID: 0}
+  positiveSymbols:
+  - androsym
+  - homorhynchus
+  - opersym
+  - divinuphile
+  - matusym
+  negativeSymbols:
+  - asym
+  - gynesym
+  - creasym
+  numberOfCorrectSymbolsToBeSatisfied: 3
+  introductionDialogue: "Je suis Alioune et je viens me faire recenser. Je suis un
+    harpie qui a pondu son dernier oeuf l'an dernier et qui prend donc un cong\xE9
+    sabatique."
+  additionalInformationDialogue:
+  - "Comme tout les m\xE2les Harpie, il arrive un temps ou ne sommes plus bon \xE0
+    enfanter. "
+  - Je suis mineur de Saphirs. Il parait que les terriens aime bien ces cailloux
+    qui nouS servent de carburant...
+  - "Les Harpies vivent sur la planete Kepler, et nous croyons en l\xE9l\xE9ments
+    divins."
+  additionalQuestion:
+  - Dites m'en plus sur  votre oeuf
+  - Dites m'en plus sur votre profession
+  - "Dites m'en plus sur votre esp\xE8ce"

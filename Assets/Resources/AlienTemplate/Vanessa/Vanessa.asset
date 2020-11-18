@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Vanessa
+  m_EditorClassIdentifier: 
+  name: Vanessa
+  characterPrefab: {fileID: 4518635339104159647, guid: bc1ccd59c73501844b68af5033156cb9, type: 3}
+  talkSound: {fileID: 0}
+  happySound: {fileID: 0}
+  angrySound: {fileID: 0}
+  positiveSymbols:
+  - gynesym
+  - homosapien
+  - crasym
+  - suorsym
+  - supsym
+  - orriculicera
+  negativeSymbols:
+  - asym
+  - androsym
+  - juniosym
+  - sedsym
+  numberOfCorrectSymbolsToBeSatisfied: 3
+  introductionDialogue: "Bonjour agent 7X. Je suis Vanessa, une NOP et mon cr\xE9ateur
+    vient de mourir.\t\\n J'en profite pour essayer de changer de statut pour ne
+    plus etre un robot menager.\t\t"
+  additionalInformationDialogue:
+  - "Je suis humaine, comme vous le voyez, mais j'aurais aim\xE9 \xEAtre Rohart."
+  - "Mon etat civil indique \"Jeremy\" . Mais je devrais pouvoir \xEAtre enfin Jade
+    \xE0 100%, non ?"
+  - Je suis serveuse depuis 2 ans. J'economise pour partir en Italie et apprendre
+    le metier de souffleuse de verre.
+  additionalQuestion:
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - "Dites m'en plus sur votre pr\xE9nom"
+  - Dites m'en plus sur votre metier
