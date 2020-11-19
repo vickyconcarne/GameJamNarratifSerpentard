@@ -114,7 +114,11 @@ namespace AdVd.GlyphRecognition
             {
                 CheckIfGoToNextAlien();
             }
-            CheckIfShowTelegram();
+            if (canShowTelegram)
+            {
+                CheckIfShowTelegram();
+            }
+            
         }
 
         private void InitializeInfo()
@@ -183,34 +187,38 @@ namespace AdVd.GlyphRecognition
 
         private void CheckIfShowTelegram()
         {
-            if(currentTime == 12 && canShowTelegram)
+            if(currentTime == 12)
             {
+                canShowTelegram = false; //Pour eviter de relancer dans l'update
                 ShowTelegram(telegramPrompts[0]);
             }
-            if (currentTime == 8 && canShowTelegram)
+            if (currentTime == 8)
             {
+                canShowTelegram = false; //Pour eviter de relancer dans l'update
                 ShowTelegram(telegramPrompts[1]);
             }
-            if (currentTime == 3 && canShowTelegram)
+            if (currentTime == 3)
             {
                 Debug.Log("showing last telegram prompt");
+                canShowTelegram = false; //Pour eviter de relancer dans l'update
                 ShowTelegram(telegramPrompts[2]);
             }
         }
 
         public void ShowTelegram(string s)
         {
-            canShowTelegram = false; //Pour eviter de relancer dans l'update
+            
             telegramText.text = s;
             blackBackground.ActivateBg();
             Debug.Log("showing telegram");
             telegramAnimator.SetTrigger("TelegramIn");
+            audioPlayer.PlayOneShot(telegramEject, 0.7f);
             StartCoroutine("PlayRandomTelegramSound");
         }
 
         public void HideTelegram()
         {
-            
+            StopCoroutine("PlayRandomTelegramSound");
             Debug.Log("hiding telegram");
             blackBackground.DeactivateBg();
             telegramAnimator.SetTrigger("TelegramOut");
@@ -307,7 +315,7 @@ namespace AdVd.GlyphRecognition
         {
             yield return new WaitForSeconds(1f);
             int r = Random.Range(0, radioSounds.Count);
-            audioPlayer.PlayOneShot( radioSounds[r], 0.3f);
+            audioPlayer.PlayOneShot( radioSounds[r], 0.15f);
         }
 
         private IEnumerator ConversationFinish()
