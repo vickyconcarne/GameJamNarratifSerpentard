@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Vanessa
   characterPrefab: {fileID: 4518635339104159647, guid: bc1ccd59c73501844b68af5033156cb9, type: 3}
-  talkSound: {fileID: 8300000, guid: 23591db2dcebe7947a65754017334fe9, type: 3}
-  happySound: {fileID: 8300000, guid: d17bd8bbe4cf0cd4c8ff86c90ea8cc1b, type: 3}
-  angrySound: {fileID: 8300000, guid: 8e710c22d2dfa3b4abf80069a415f9a0, type: 3}
+  talkSound: {fileID: 8300000, guid: 60a8c8428873abf4e87cc6c82dc0bd9a, type: 3}
+  happySound: {fileID: 8300000, guid: f0752325dff4aa849bff70c0a68b1910, type: 3}
+  angrySound: {fileID: 8300000, guid: 9b96708222327b5499eac54a457ec59a, type: 3}
   positiveSymbols:
   - gynesym
   - NOP

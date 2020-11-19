@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: (en cours de choix)
   characterPrefab: {fileID: 4518635339104159647, guid: 0e85760e79076da449659a21ef9e3379, type: 3}
-  talkSound: {fileID: 8300000, guid: 07a97a78f76849b45ad848ab6be05363, type: 3}
-  happySound: {fileID: 8300000, guid: 03a6a7aeea0d84247973e88f43d052d8, type: 3}
-  angrySound: {fileID: 8300000, guid: 859c88e3015b5f04bb3ccd289fe833c0, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
   positiveSymbols:
   - androsym
   - asym

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Jade
   characterPrefab: {fileID: 4518635339104159647, guid: 4010d3f9c78060741ac0efcc5480e4c3, type: 3}
-  talkSound: {fileID: 8300000, guid: a45b6220412b2d948a6fc9d0b5fd62fd, type: 3}
-  happySound: {fileID: 8300000, guid: fa83f1f367862df45af76fd73ad7c146, type: 3}
-  angrySound: {fileID: 8300000, guid: 92a4db424c29e4b488c32c089bde9cfe, type: 3}
+  talkSound: {fileID: 8300000, guid: af907f19154dd7b498ca2bf1103517d1, type: 3}
+  happySound: {fileID: 8300000, guid: 26c0afc1912a19d48aef7a27cb07a83f, type: 3}
+  angrySound: {fileID: 8300000, guid: d1f294aa10bbca949b387267bee8eca2, type: 3}
   positiveSymbols:
   - gynesym
   - homosapien
