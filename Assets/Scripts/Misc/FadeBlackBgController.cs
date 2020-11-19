@@ -19,13 +19,11 @@ public class FadeBlackBgController : MonoBehaviour
 
     public void DeactivateObject()
     {
-        Debug.Log("deactivated bg!");
         this.gameObject.SetActive(false);
     }
 
     public void ActivateBg()
     {
-        Debug.Log("activating bg!");
         this.gameObject.SetActive(true);
         this.GetComponent<Animator>().SetTrigger("FadeIn");
     }

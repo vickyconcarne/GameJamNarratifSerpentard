@@ -44,8 +44,10 @@ namespace AdVd.GlyphRecognition
         //Telegrams
         public List<string> telegramPrompts;
         public TextMeshProUGUI telegramText;
-        public List<Sprite> telegramLooks;
-        public Image telegramImage;
+        public Animator telegramAnimator;
+        public List<AudioClip> radioSounds;
+
+        private bool canShowTelegram;
 
         //On which alien are we
         public Alien currentAlien;
@@ -65,6 +67,8 @@ namespace AdVd.GlyphRecognition
         public AudioClip failureSound;
         public AudioClip tellMeMoreSound;
         public AudioClip nextAlienSound;
+        public AudioClip paperShuffleSound;
+        public AudioClip telegramEject;
 
         [Header("Animation")]
         public GameObject alienParent;
@@ -103,6 +107,16 @@ namespace AdVd.GlyphRecognition
             }
         }
 
+        // Update is called once per frame
+        void Update()
+        {
+            if (initialized)
+            {
+                CheckIfGoToNextAlien();
+            }
+            CheckIfShowTelegram();
+        }
+
         private void InitializeInfo()
         {
             currentTime = maxTime;
@@ -114,6 +128,7 @@ namespace AdVd.GlyphRecognition
             timeSlider.minValue = minTime;
             timeSlider.value = currentTime;
             satisfiedAliens = 0;
+            canShowTelegram = true;
             angryAliens = 0;
             int i = 0;
             foreach (Glyph g in alienSymbols)
@@ -168,17 +183,36 @@ namespace AdVd.GlyphRecognition
 
         private void CheckIfShowTelegram()
         {
-
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-            if (initialized)
+            if(currentTime == 12 && canShowTelegram)
             {
-                CheckIfGoToNextAlien();
+                ShowTelegram(telegramPrompts[0]);
+            }
+            if (currentTime == 8 && canShowTelegram)
+            {
+                ShowTelegram(telegramPrompts[1]);
+            }
+            if (currentTime == 4 && canShowTelegram)
+            {
+                ShowTelegram(telegramPrompts[2]);
             }
         }
+
+        public void ShowTelegram(string s)
+        {
+            canShowTelegram = false; //Pour eviter de relancer dans l'update
+            telegramText.text = s;
+            blackBackground.ActivateBg();
+            telegramAnimator.SetTrigger("TelegramIn");
+        }
+
+        public void HideTelegram()
+        {
+            canShowTelegram = true;
+            blackBackground.DeactivateBg();
+            telegramAnimator.SetTrigger("TelegramOut");
+        }
+
+        
 
         public void AddNewSymbolToLayout(Glyph g)
         {
@@ -296,7 +330,7 @@ namespace AdVd.GlyphRecognition
                 {
                     satisfaction += 1;
                     go.GetComponent<Image>().color = correctSymbolColor;
-                    audioPlayer.PlayOneShot(correctSymbolSound, 0.35f);
+                    audioPlayer.PlayOneShot(correctSymbolSound, 0.4f);
                 }
                 else if (currentAlien.negativeSymbols.Contains(currentGlyph.ToString()))
                 {
@@ -326,11 +360,13 @@ namespace AdVd.GlyphRecognition
             {
                 audioPlayer.PlayOneShot(successSound, 0.5f);
                 alienParent.transform.GetChild(0).GetComponent<Animator>().SetTrigger("Content");
+                satisfiedAliens += 1;
             }
             else
             {
                 audioPlayer.PlayOneShot(failureSound, 0.5f);
                 alienParent.transform.GetChild(0).GetComponent<Animator>().SetTrigger("PasContent");
+                angryAliens += 1;
             }
             StartCoroutine(FadeOutDialogue());
             yield return new WaitForSeconds(4f);
@@ -394,6 +430,7 @@ namespace AdVd.GlyphRecognition
 
         public void ShowDialogueOption1()
         {
+            StopCoroutine("PlayText");
             questionBox1.SetActive(false);
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
@@ -404,6 +441,7 @@ namespace AdVd.GlyphRecognition
 
         public void ShowDialogueOption2()
         {
+            StopCoroutine("PlayText");
             questionBox2.SetActive(false);
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
@@ -414,6 +452,7 @@ namespace AdVd.GlyphRecognition
 
         public void ShowDialogueOption3()
         {
+            StopCoroutine("PlayText");
             questionBox3.SetActive(false);
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
