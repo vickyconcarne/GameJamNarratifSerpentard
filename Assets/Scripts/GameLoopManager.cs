@@ -429,12 +429,12 @@ namespace AdVd.GlyphRecognition
             {
                 clock.transform.localScale = t.CurrentValue;
             };
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.2f);
             // completion defaults to null if not passed in
             clock.Tween("scaleClock", clock.transform.localScale, endScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
             audioPlayer.PlayOneShot(clockTickSound, 0.8f);
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
-            yield return new WaitForSeconds(0.2f);
+            yield return new WaitForSeconds(0.1f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
             yield return null;
         }
