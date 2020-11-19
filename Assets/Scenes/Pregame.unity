@@ -853,16 +853,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontSize
-      value: 25.6
+      value: 35.5
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 98235daaf372849f2b647c5cbf60fb99, type: 2}
+      objectReference: {fileID: 11400000, guid: 25ea2409074c14f15ad3ac19655822a7, type: 2}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5328919949052349956, guid: 98235daaf372849f2b647c5cbf60fb99, type: 2}
+      objectReference: {fileID: -7341748046766245927, guid: 25ea2409074c14f15ad3ac19655822a7, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
 --- !u!1 &2090023851
