@@ -423,7 +423,7 @@ namespace AdVd.GlyphRecognition
 
         public IEnumerator HorlogeGonfle()
         {
-            Vector3 endScale = Vector3.one * 1.5f;
+            Vector3 endScale = Vector3.one * 1.7f;
             Vector3 beginningScale = Vector3.one * 1f;
             System.Action<ITween<Vector3>> updateSize = (t) =>
             {
