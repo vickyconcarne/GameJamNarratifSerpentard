@@ -24,6 +24,8 @@ namespace AdVd.GlyphRecognition
         public int currentDialogueCounter;
         public List<Alien> aliens;
 
+        
+        [Header("Dialogue")]
         //Text
         public Animator dialogueAnimator;
         public GameObject speechBubbleAnimator;
@@ -32,9 +34,18 @@ namespace AdVd.GlyphRecognition
         public GameObject questionBox2;
         public GameObject questionBox3;
 
+        [Header("Telegrams")]
+        //Telegrams
+        public List<string> telegramPrompts;
+        public TextMeshProUGUI telegramText;
+        public List<Sprite> telegramLooks;
+        public Image telegramImage;
+
         //On which alien are we
         public Alien currentAlien;
         private int alienCounter;
+        private int satisfiedAliens;
+        private int angryAliens;
 
         [Header("Sounds")]
         public AudioSource audioPlayer; 
@@ -95,6 +106,8 @@ namespace AdVd.GlyphRecognition
             timeSlider.maxValue = maxTime;
             timeSlider.minValue = minTime;
             timeSlider.value = currentTime;
+            satisfiedAliens = 0;
+            angryAliens = 0;
             int i = 0;
             foreach (Glyph g in alienSymbols)
             {
@@ -138,6 +151,11 @@ namespace AdVd.GlyphRecognition
             {
                 return;
             }
+        }
+
+        private void CheckIfShowTelegram()
+        {
+
         }
 
         // Update is called once per frame
@@ -400,7 +418,7 @@ namespace AdVd.GlyphRecognition
             }
             timeSlider.value = currentTime;
             StartCoroutine("HorlogeGonfle");
-            audioPlayer.PlayOneShot(clockTickSound,0.8f);
+            
         }
 
         public IEnumerator HorlogeGonfle()
@@ -411,9 +429,10 @@ namespace AdVd.GlyphRecognition
             {
                 clock.transform.localScale = t.CurrentValue;
             };
-
+            yield return new WaitForSeconds(0.5f);
             // completion defaults to null if not passed in
             clock.Tween("scaleClock", clock.transform.localScale, endScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
+            audioPlayer.PlayOneShot(clockTickSound, 0.8f);
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
             yield return new WaitForSeconds(0.2f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
