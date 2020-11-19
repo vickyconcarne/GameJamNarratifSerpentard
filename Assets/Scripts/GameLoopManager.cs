@@ -29,10 +29,13 @@ namespace AdVd.GlyphRecognition
         //Text
         public Animator dialogueAnimator;
         public GameObject speechBubbleAnimator;
+        public Image speechBubble;
         public TextMeshProUGUI dialogueBox;
         public GameObject questionBox1;
         public GameObject questionBox2;
         public GameObject questionBox3;
+        //Speech bubbles
+        public List<Sprite> randomBubbleSprites;
 
         [Header("Telegrams")]
         //Telegrams
@@ -253,7 +256,7 @@ namespace AdVd.GlyphRecognition
             canInteract = false;
             //Hide speech bubble
             speechBubbleAnimator.SetActive(false);
-            speechBubbleAnimator.GetComponent<Image>().enabled = false;
+            speechBubbleAnimator.transform.GetChild(0).GetComponent<Image>().enabled = false;
             //Start analysis
             audioPlayer.PlayOneShot(submitAnswer, 0.3f);
             yield return new WaitForSeconds(1f);
@@ -403,6 +406,12 @@ namespace AdVd.GlyphRecognition
             speechBubbleAnimator.SetActive(true);
             speechBubbleAnimator.GetComponent<Animator>().SetTrigger("Pop");
             dialogueBox.text = currentAlien.additionalInformationDialogue[2];
+        }
+
+        public void SelectRandomSpeechBubble()
+        {
+            int r = Random.Range(0, randomBubbleSprites.Count);
+            speechBubble.sprite = randomBubbleSprites[r];
         }
 
         public void ReduceTime()
