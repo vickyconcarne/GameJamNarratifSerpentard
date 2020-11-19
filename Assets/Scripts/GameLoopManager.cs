@@ -73,7 +73,7 @@ namespace AdVd.GlyphRecognition
         [Header("Animation")]
         public GameObject alienParent;
         public FadeBlackBgController blackBackground;
-        private float timeBeforeNextConversation = 8f;
+        private float timeBeforeNextConversation = 6f;
         [Header("glyphs")]
         public GlyphSet alienSymbols;
         public Color correctSymbolColor;
@@ -193,23 +193,30 @@ namespace AdVd.GlyphRecognition
             }
             if (currentTime == 4 && canShowTelegram)
             {
+                Debug.Log("showing last telegram prompt");
                 ShowTelegram(telegramPrompts[2]);
             }
         }
 
         public void ShowTelegram(string s)
         {
+            StopCoroutine("PlayRandomTelegramSound");
             canShowTelegram = false; //Pour eviter de relancer dans l'update
             telegramText.text = s;
             blackBackground.ActivateBg();
+            Debug.Log("showing telegram");
             telegramAnimator.SetTrigger("TelegramIn");
+            StartCoroutine("PlayRandomTelegramSound");
         }
 
         public void HideTelegram()
         {
             canShowTelegram = true;
+            Debug.Log("hiding telegram");
             blackBackground.DeactivateBg();
             telegramAnimator.SetTrigger("TelegramOut");
+            StopCoroutine("PlayRandomTelegramSound");
+            audioPlayer.PlayOneShot(paperShuffleSound, 2f);
         }
 
         
@@ -294,6 +301,13 @@ namespace AdVd.GlyphRecognition
             
         }
 
+        private IEnumerator PlayRandomTelegramSound()
+        {
+            yield return new WaitForSeconds(1f);
+            int r = Random.Range(0, radioSounds.Count);
+            audioPlayer.PlayOneShot( radioSounds[r], 0.3f);
+        }
+
         private IEnumerator ConversationFinish()
         {
           
@@ -364,13 +378,21 @@ namespace AdVd.GlyphRecognition
             }
             else
             {
-                audioPlayer.PlayOneShot(failureSound, 0.5f);
+                audioPlayer.PlayOneShot(failureSound, 0.4f);
                 alienParent.transform.GetChild(0).GetComponent<Animator>().SetTrigger("PasContent");
                 angryAliens += 1;
             }
             StartCoroutine(FadeOutDialogue());
-            yield return new WaitForSeconds(4f);
-
+            yield return new WaitForSeconds(2f);
+            if (satisfaction >= currentAlien.numberOfCorrectSymbolsToBeSatisfied)
+            {
+                audioPlayer.PlayOneShot(currentAlien.happySound, 0.5f);
+            }
+            else
+            {
+                audioPlayer.PlayOneShot(currentAlien.angrySound, 0.5f);
+            }
+            yield return new WaitForSeconds(2f);
             //Start alien departure
             alienParent.GetComponent<Animator>().SetTrigger("SlideOut");
             
@@ -434,6 +456,7 @@ namespace AdVd.GlyphRecognition
             questionBox1.SetActive(false);
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
+            audioPlayer.PlayOneShot(currentAlien.talkSound,0.6f);
             speechBubbleAnimator.GetComponent<Animator>().SetTrigger("Pop");
             //dialogueBox.text = currentAlien.additionalInformationDialogue[0];
             StartCoroutine(PlayText(currentAlien.additionalInformationDialogue[0]));
@@ -445,6 +468,7 @@ namespace AdVd.GlyphRecognition
             questionBox2.SetActive(false);
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
+            audioPlayer.PlayOneShot(currentAlien.talkSound, 0.6f);
             speechBubbleAnimator.GetComponent<Animator>().SetTrigger("Pop");
             //dialogueBox.text = currentAlien.additionalInformationDialogue[1];
             StartCoroutine(PlayText(currentAlien.additionalInformationDialogue[1]));
@@ -456,6 +480,7 @@ namespace AdVd.GlyphRecognition
             questionBox3.SetActive(false);
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
+            audioPlayer.PlayOneShot(currentAlien.talkSound, 0.6f);
             speechBubbleAnimator.GetComponent<Animator>().SetTrigger("Pop");
             //dialogueBox.text = currentAlien.additionalInformationDialogue[2];
             StartCoroutine(PlayText(currentAlien.additionalInformationDialogue[2]));
@@ -488,7 +513,7 @@ namespace AdVd.GlyphRecognition
             yield return new WaitForSeconds(0.2f);
             // completion defaults to null if not passed in
             clock.Tween("scaleClock", clock.transform.localScale, endScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
-            audioPlayer.PlayOneShot(clockTickSound, 0.8f);
+            audioPlayer.PlayOneShot(clockTickSound, 0.6f);
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
             yield return new WaitForSeconds(0.1f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
