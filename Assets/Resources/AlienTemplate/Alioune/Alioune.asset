@@ -27,7 +27,7 @@ MonoBehaviour:
   - asym
   - gynesym
   - creasym
-  numberOfCorrectSymbolsToBeSatisfied: 2
+  numberOfCorrectSymbolsToBeSatisfied: 3
   introductionDialogue: "Je suis Alioune et je viens me faire recenser. Je suis un
     harpie qui a pondu son dernier oeuf l'an dernier et qui prend donc un cong\xE9
     sabatique."

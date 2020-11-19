@@ -29,7 +29,7 @@ MonoBehaviour:
   - androsym
   - juniosym
   - sedsym
-  numberOfCorrectSymbolsToBeSatisfied: 2
+  numberOfCorrectSymbolsToBeSatisfied: 3
   introductionDialogue: "Bonjour. Je m'appelle Jade et je suis serveuse dans un bar
     de nuit.  C'est mon premier recensement, je viens de f\xEAter mes 18 ans."
   additionalInformationDialogue:

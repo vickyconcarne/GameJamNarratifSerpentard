@@ -27,7 +27,7 @@ MonoBehaviour:
   - natusym
   - seniosym
   - N.O.P
-  numberOfCorrectSymbolsToBeSatisfied: 3
+  numberOfCorrectSymbolsToBeSatisfied: 4
   introductionDialogue: "Jean-Ch\xEAne vous salue. Je suis informaticien. Je viens
     d'arriver sur Terre apr\xE8s avoir  perdu toute ma descendance."
   additionalInformationDialogue:
