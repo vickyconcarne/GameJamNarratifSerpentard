@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Alioune
   characterPrefab: {fileID: 4518635339104159647, guid: 08074517200df544f8e184b50a3a487e, type: 3}
-  talkSound: {fileID: 0}
-  happySound: {fileID: 0}
-  angrySound: {fileID: 0}
+  talkSound: {fileID: 8300000, guid: 07a97a78f76849b45ad848ab6be05363, type: 3}
+  happySound: {fileID: 8300000, guid: 03a6a7aeea0d84247973e88f43d052d8, type: 3}
+  angrySound: {fileID: 8300000, guid: 859c88e3015b5f04bb3ccd289fe833c0, type: 3}
   positiveSymbols:
   - androsym
   - homorhynchus
@@ -26,18 +26,17 @@ MonoBehaviour:
   negativeSymbols:
   - asym
   - gynesym
-  - creasym
   numberOfCorrectSymbolsToBeSatisfied: 3
   introductionDialogue: "Je suis Alioune et je viens me faire recenser. Je suis un
     harpie qui a pondu son dernier oeuf l'an dernier et qui prend donc un cong\xE9
-    sabatique."
+    sabbatique."
   additionalInformationDialogue:
-  - "Comme tout les m\xE2les Harpie, il arrive un temps ou ne sommes plus bon \xE0
+  - "Comme tout les m\xE2les Harpies, il arrive un temps ou ne sommes plus bons \xE0
     enfanter. "
-  - Je suis mineur de Saphirs. Il parait que les terriens aime bien ces cailloux
-    qui nouS servent de carburant...
-  - "Les Harpies vivent sur la planete Kepler, et nous croyons en l\xE9l\xE9ments
-    divins."
+  - Je suis mineur de saphirs. Il parait que les terriens aiment bien ces cailloux
+    qui nous servent de carburant...
+  - "Les Harpies vivent sur la plan\xE8te Kepler et nous croyons en la divinit\xE9
+    des El\xE9ments."
   additionalQuestion:
   - Dites m'en plus sur  votre oeuf
   - Dites m'en plus sur votre profession

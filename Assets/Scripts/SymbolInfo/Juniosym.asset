@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Juniosym
   m_EditorClassIdentifier: 
   symbolName: Juniosym
-  symbolIcon: {fileID: 21300000, guid: 3dfffb8dc44704e529681d2c7ae0d43f, type: 3}
+  symbolIcon: {fileID: 21300000, guid: c2b8029f66fae4f5fa3e945382ba0556, type: 3}
   description: "Cat\xE9gorie d\u2019\xE2ge allant de la naissance \xE0 la pubert\xE9
     et concernant des \xEAtres jeunes, en formation, encore d\xE9pendants d\u2019une
     aide ext\xE9rieure et d\u2019une prise en charge. Cr\xE9atures juveniles n'ayant

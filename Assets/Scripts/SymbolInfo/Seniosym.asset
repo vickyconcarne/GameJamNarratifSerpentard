@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Seniosym
   m_EditorClassIdentifier: 
   symbolName: Seniosym
-  symbolIcon: {fileID: 21300000, guid: 255b457d27c35474ca740bfe7699b887, type: 3}
+  symbolIcon: {fileID: 21300000, guid: db448ed8a9b484a5394ab706ee73a9dd, type: 3}
   description: "Cat\xE9gorie d\u2019\xE2ge regroupant les personnes ayant d\xE9pass\xE9
     l\u2019\xE2ge de procr\xE9ation (m\xE9naupose, andropause etc), les personnes
     consider\xE9es commes doyens de leur societ\xE9, les personnes commencant \xE0

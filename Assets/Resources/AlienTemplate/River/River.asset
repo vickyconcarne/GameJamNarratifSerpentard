@@ -14,29 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: River
   characterPrefab: {fileID: 4518635339104159647, guid: bbcdd13aed1642746a27b09409a320ea, type: 3}
-  talkSound: {fileID: 0}
-  happySound: {fileID: 0}
-  angrySound: {fileID: 0}
+  talkSound: {fileID: 8300000, guid: 07a97a78f76849b45ad848ab6be05363, type: 3}
+  happySound: {fileID: 8300000, guid: 03a6a7aeea0d84247973e88f43d052d8, type: 3}
+  angrySound: {fileID: 8300000, guid: 859c88e3015b5f04bb3ccd289fe833c0, type: 3}
   positiveSymbols:
   - asym
   - forsym
   - limnomorpha
+  - nomsym
+  - suspsym
+  - cersym
   negativeSymbols:
-  - natusym
-  - sedsym
   - seniosym
-  numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: "Blourps \xE0 toi. Je me nomme River , j'ai 73 ans et je
-    viens de m'inscrire a l'universit\xE9 de New Kinshasa  apr\xE8s avoir termin\xE9
+  - sedsym
+  numberOfCorrectSymbolsToBeSatisfied: 3
+  introductionDialogue: "Blourps \xE0 toi. Je me nomme River,  j'ai 73 ans et je
+    viens de m'inscrire \xE0 l'universit\xE9 de New Kinshasa, apr\xE8s avoir termin\xE9
     ma th\xE8se \xE0 Blorthia. "
   additionalInformationDialogue:
-  - "Je suis de race Blors. La Terre est la seule planete que je n'ai pas encore
-    visit\xE9."
-  - "J'ai \xE9t\xE9 d\xE9ratiseur, m\xE2le, femelle, etudiant en science nucl\xE9aire
+  - "Je suis de race Blors. La Terre est la seule plan\xE8te que je n'ai pas encore
+    visit\xE9e."
+  - "J'ai \xE9t\xE9 d\xE9ratiseur, m\xE2le, femelle, \xE9tudiant en sciences nucl\xE9aires
     et maintenant je veux apprendre la cuisine."
-  - 'Pourquoi ? Je suis encore jeune et energique. Et vous dites m''en plus sur vous
-    ! Quel est votre nom ? '
+  - "Pourquoi ? Je suis encore jeune et \xE9nergique. Et vous ? Dites m'en plus sur
+    vous ! Quel est votre nom ? "
   additionalQuestion:
-  - Dites m'en plus sur votre planete ?
-  - Dites m'en plus sur vos etudes
-  - 'Dites m''en plus sur votre age ? '
+  - "Dites m'en plus sur votre plan\xE9te ?"
+  - "Dites m'en plus sur vos \xE9tudes"
+  - "Dites m'en plus sur votre \xE2ge ? "

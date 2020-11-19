@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Anthoerectus
   m_EditorClassIdentifier: 
   symbolName: Anthoerectus
-  symbolIcon: {fileID: 21300000, guid: 9ca27aaabeddc49ad98a708f22c86550, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 621f087a9e0664b39ad4618fdb0fc591, type: 3}
   description: "Humano\xEFdes v\xE9g\xE9taux du genre Anthoerectus. Originaires du
     satellite Flora (orbitant autour de Alpha du Centaure). Les Chlorophylliens cohabitent
     depuis longtemps avec les Alphees et sont donc tr\xE8s \xE0 l'aise dans leur

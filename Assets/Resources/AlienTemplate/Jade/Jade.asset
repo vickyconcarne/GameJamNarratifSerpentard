@@ -14,16 +14,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Jade
   characterPrefab: {fileID: 4518635339104159647, guid: 4010d3f9c78060741ac0efcc5480e4c3, type: 3}
-  talkSound: {fileID: 0}
-  happySound: {fileID: 0}
-  angrySound: {fileID: 0}
+  talkSound: {fileID: 8300000, guid: a45b6220412b2d948a6fc9d0b5fd62fd, type: 3}
+  happySound: {fileID: 8300000, guid: fa83f1f367862df45af76fd73ad7c146, type: 3}
+  angrySound: {fileID: 8300000, guid: 92a4db424c29e4b488c32c089bde9cfe, type: 3}
   positiveSymbols:
   - gynesym
   - homosapien
-  - crasym
-  - suorsym
-  - supsym
+  - creasym
+  - orsym
+  - suspsym
   - orriculicera
+  - nomsym
   negativeSymbols:
   - asym
   - androsym
@@ -34,11 +35,11 @@ MonoBehaviour:
     de nuit.  C'est mon premier recensement, je viens de f\xEAter mes 18 ans."
   additionalInformationDialogue:
   - "Je suis humaine, comme vous le voyez, mais j'aurais aim\xE9 \xEAtre Rohart."
-  - "Mon etat civil indique \"Jeremy\" . Mais je devrais pouvoir \xEAtre enfin Jade
-    \xE0 100%, non ?"
-  - Je suis serveuse depuis 2 ans. J'economise pour partir en Italie et apprendre
-    le metier de souffleuse de verre.
+  - "Mon \xE9tat civil indique \"Jeremy\" . Mais je devrais pouvoir \xEAtre enfin
+    Jade \xE0 100%, non ?"
+  - "Je suis serveuse depuis 2 ans. J'economise pour partir en Italie et apprendre
+    le m\xE9tier de souffleuse de verre."
   additionalQuestion:
   - "Dites m'en plus sur votre esp\xE8ce"
   - Dites m'en plus sur votre nom
-  - Dites m'en plus sur votre metier
+  - "Dites m'en plus sur votre m\xE9tier"

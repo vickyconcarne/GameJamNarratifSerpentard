@@ -14,31 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Vanessa
   characterPrefab: {fileID: 4518635339104159647, guid: bc1ccd59c73501844b68af5033156cb9, type: 3}
-  talkSound: {fileID: 0}
-  happySound: {fileID: 0}
-  angrySound: {fileID: 0}
+  talkSound: {fileID: 8300000, guid: 23591db2dcebe7947a65754017334fe9, type: 3}
+  happySound: {fileID: 8300000, guid: d17bd8bbe4cf0cd4c8ff86c90ea8cc1b, type: 3}
+  angrySound: {fileID: 8300000, guid: 8e710c22d2dfa3b4abf80069a415f9a0, type: 3}
   positiveSymbols:
   - gynesym
   - NOP
   - opersym
-  - supsym
-  - homosapiens
+  - suspsym
+  - homosapien
   negativeSymbols:
   - asym
   - androsym
   - nomsym
   numberOfCorrectSymbolsToBeSatisfied: 3
-  introductionDialogue: "Bonjour agent 7X. Je suis Vanessa, une NOP et mon cr\xE9ateur
+  introductionDialogue: "Bonjour Agent 7X. Je suis Vanessa, une N.O.P et mon cr\xE9ateur
     vient de mourir.\t\\n J'en profite pour essayer de changer de statut pour ne
-    plus etre un robot menager.\t\t"
+    plus \xEAtre un robot m\xE9nager.\t\t"
   additionalInformationDialogue:
-  - "Je suis un robot menager de type 1 cr\xE9\xE9 sur Terre il y a 2 ans, 3 mois
+  - "Je suis un robot m\xE9nager de type 1, cr\xE9ee sur Terre il y a 2 ans, 3 mois
     et 18 jours."
-  - "Mon cr\xE9ateur m'a cod\xE9 pour etre robot menager mais je voudrais \xEAtre
-    un robot batisseur."
+  - "Mon cr\xE9ateur m'a cod\xE9e pour etre robot m\xE9nager, mais je voudrais \xEAtre
+    un robot b\xE2tisseur."
   - "Vanessa est un pr\xE9nom f\xE9minin invent\xE9 par Jonathan Swift et je le trouve
-    tr\xE8s agr\xE9able a porter."
+    tr\xE8s agr\xE9able \xE0 porter."
   additionalQuestion:
-  - Dites m'en plus sur votre espece
-  - Dites m'en plus sur votre metier
+  - "Dites m'en plus sur votre \xE9sp\xE8ce"
+  - "Dites m'en plus sur votre m\xE9tier"
   - "Dites m'en plus sur votre pr\xE9nom"
