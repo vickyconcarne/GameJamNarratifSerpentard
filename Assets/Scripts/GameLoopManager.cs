@@ -68,6 +68,7 @@ namespace AdVd.GlyphRecognition
 
         [Header("Animation")]
         public GameObject alienParent;
+        public FadeBlackBgController blackBackground;
         private float timeBeforeNextConversation = 8f;
         [Header("glyphs")]
         public GlyphSet alienSymbols;
