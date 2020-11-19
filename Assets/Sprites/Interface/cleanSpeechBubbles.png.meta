@@ -1,46 +1,46 @@
 fileFormatVersion: 2
-guid: 13d8afa8027534441838770e7abafd82
+guid: 0f9390d6fa14be342bc57beaa6d2abd1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2954626930323263216
-    second: Bulles_0
+      213: -8217437316948739791
+    second: cleanSpeechBubbles_0
   - first:
-      213: 3881151204270524614
-    second: Bulles_1
+      213: -7089795512867868331
+    second: cleanSpeechBubbles_1
   - first:
-      213: 7346334483955320116
-    second: Bulles_2
+      213: -8026610455877249512
+    second: cleanSpeechBubbles_2
   - first:
-      213: 7132323448503860743
-    second: Bulles_3
+      213: 7505001636702888372
+    second: cleanSpeechBubbles_3
   - first:
-      213: -8469403361462668750
-    second: Bulles_4
+      213: -1868794864967993347
+    second: cleanSpeechBubbles_4
   - first:
-      213: -7584158689253483065
-    second: Bulles_5
+      213: -1267554435767501831
+    second: cleanSpeechBubbles_5
   - first:
-      213: 3241274455337946672
-    second: Bulles_6
+      213: -6662896773527017298
+    second: cleanSpeechBubbles_6
   - first:
-      213: 8536334956335770494
-    second: Bulles_7
+      213: 2470343330089445183
+    second: cleanSpeechBubbles_7
   - first:
-      213: 2457990245427274575
-    second: Bulles_8
+      213: -6360523194911151538
+    second: cleanSpeechBubbles_8
   - first:
-      213: -7511102254260190956
-    second: Bulles_9
+      213: 8191931543182307886
+    second: cleanSpeechBubbles_9
   - first:
-      213: 1261693423222555675
-    second: Bulles_10
+      213: 5847584218128512686
+    second: cleanSpeechBubbles_10
   - first:
-      213: 8992637593070543141
-    second: Bulles_11
+      213: 137447481486119634
+    second: cleanSpeechBubbles_11
   - first:
-      213: -4025417585772063961
-    second: Bulles_12
+      213: -6838721613525626353
+    second: cleanSpeechBubbles_12
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -128,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bulles_0
+      name: cleanSpeechBubbles_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 3
         y: 0
-        width: 31
-        height: 25
+        width: 108
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -142,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 011774e067e0ff6d0800000000000000
-      internalID: -2954626930323263216
+      spriteID: 1393b3f4c4cc5fd80800000000000000
+      internalID: -8217437316948739791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulles_1
+      name: cleanSpeechBubbles_1
       rect:
         serializedVersion: 2
-        x: 33
+        x: 114
         y: 0
-        width: 31
-        height: 25
+        width: 108
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,125 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c8cf12057e9cd530800000000000000
-      internalID: 3881151204270524614
+      spriteID: 5513a5d5b8cfb9d90800000000000000
+      internalID: -7089795512867868331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulles_2
-      rect:
-        serializedVersion: 2
-        x: 65
-        y: 0
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4350c556a4c63f560800000000000000
-      internalID: 7346334483955320116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bulles_3
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 0
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70ef243436a1bf260800000000000000
-      internalID: 7132323448503860743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bulles_4
-      rect:
-        serializedVersion: 2
-        x: 129
-        y: 0
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 232b48cf382a67a80800000000000000
-      internalID: -8469403361462668750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bulles_5
-      rect:
-        serializedVersion: 2
-        x: 161
-        y: 0
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cd9adecad7afb690800000000000000
-      internalID: -7584158689253483065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bulles_6
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 0
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03e47f1b1f15bfc20800000000000000
-      internalID: 3241274455337946672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bulles_7
+      name: cleanSpeechBubbles_2
       rect:
         serializedVersion: 2
         x: 225
         y: 0
-        width: 31
-        height: 25
+        width: 108
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7ba4245a67277670800000000000000
-      internalID: 8536334956335770494
+      spriteID: 81610033150cb9090800000000000000
+      internalID: -8026610455877249512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulles_8
+      name: cleanSpeechBubbles_3
       rect:
         serializedVersion: 2
-        x: 257
+        x: 336
         y: 0
-        width: 31
-        height: 25
+        width: 108
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,20 +205,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f436110fa198c1220800000000000000
-      internalID: 2457990245427274575
+      spriteID: 4b1a662b93f172860800000000000000
+      internalID: 7505001636702888372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulles_9
+      name: cleanSpeechBubbles_4
       rect:
         serializedVersion: 2
-        x: 289
+        x: 447
         y: 0
-        width: 31
-        height: 25
+        width: 108
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,20 +226,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4118f279b4433c790800000000000000
-      internalID: -7511102254260190956
+      spriteID: df7328bb8f4b016e0800000000000000
+      internalID: -1868794864967993347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulles_10
+      name: cleanSpeechBubbles_5
       rect:
         serializedVersion: 2
-        x: 321
+        x: 558
         y: 0
-        width: 31
-        height: 25
+        width: 108
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,20 +247,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1480a2db7f628110800000000000000
-      internalID: 1261693423222555675
+      spriteID: 9fb7b9ad4fdb86ee0800000000000000
+      internalID: -1267554435767501831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulles_11
+      name: cleanSpeechBubbles_6
       rect:
         serializedVersion: 2
-        x: 353
+        x: 669
         y: 0
-        width: 31
-        height: 25
+        width: 108
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,20 +268,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5212bc0fe344ccc70800000000000000
-      internalID: 8992637593070543141
+      spriteID: ea863de9fa2a883a0800000000000000
+      internalID: -6662896773527017298
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bulles_12
+      name: cleanSpeechBubbles_7
       rect:
         serializedVersion: 2
-        x: 385
+        x: 779
         y: 0
-        width: 31
-        height: 25
+        width: 109
+        height: 87
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,8 +289,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72312778808d228c0800000000000000
-      internalID: -4025417585772063961
+      spriteID: f37ac379b2c684220800000000000000
+      internalID: 2470343330089445183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanSpeechBubbles_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 0
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a20bd8ad1eab7a0800000000000000
+      internalID: -6360523194911151538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanSpeechBubbles_9
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 0
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22f2b7f5569fa170800000000000000
+      internalID: 8191931543182307886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanSpeechBubbles_10
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 0
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6fab35ddac62150800000000000000
+      internalID: 5847584218128512686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanSpeechBubbles_11
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 0
+        width: 109
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2904591cf48e100800000000000000
+      internalID: 137447481486119634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cleanSpeechBubbles_12
+      rect:
+        serializedVersion: 2
+        x: 1334
+        y: 0
+        width: 108
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02d404fceaf711a0800000000000000
+      internalID: -6838721613525626353
       vertices: []
       indices: 
       edges: []
@@ -403,7 +403,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: c32889caffe907a48847f3a5c14d7321
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
