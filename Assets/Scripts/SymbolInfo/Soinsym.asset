@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Soinsym
   m_EditorClassIdentifier: 
   symbolName: Soinsym
-  symbolIcon: {fileID: 21300000, guid: d53727f03ee8d44c59d4b70a512e1905, type: 3}
+  symbolIcon: {fileID: 21300000, guid: b992aac5808014096b63399faae7a7f0, type: 3}
   description: "Cat\xE9gorie profesionnelle incluant les m\xE9decins, les gu\xE9risseurs,
     les infirmiers, les secouristes, les travailleurs sociaux, les pharmaciens, les
     laborentins medicaux et techniciens biologistes, les pharmaciens, les alchimistes

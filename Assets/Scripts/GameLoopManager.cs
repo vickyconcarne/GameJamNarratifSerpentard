@@ -34,6 +34,12 @@ namespace AdVd.GlyphRecognition
         public GameObject questionBox2;
         public GameObject questionBox3;
 
+        public Image bubbleSprite;
+        public List<Sprite> randomBubbleImages;
+
+        //To make write text progressively
+        string currentDialogue;
+
         [Header("Telegrams")]
         //Telegrams
         public List<string> telegramPrompts;
@@ -115,6 +121,12 @@ namespace AdVd.GlyphRecognition
                 i += 1;
             }
             initialized = true;
+        }
+
+        public void RandomizeSpeechBubble()
+        {
+            int r = Random.Range(0, randomBubbleImages.Count);
+            bubbleSprite.sprite = randomBubbleImages[r];
         }
 
         private void UpdateSymbolCount()
@@ -253,7 +265,7 @@ namespace AdVd.GlyphRecognition
             canInteract = false;
             //Hide speech bubble
             speechBubbleAnimator.SetActive(false);
-            speechBubbleAnimator.GetComponent<Image>().enabled = false;
+            speechBubbleAnimator.transform.GetChild(0).GetComponent<Image>().enabled = false;
             //Start analysis
             audioPlayer.PlayOneShot(submitAnswer, 0.3f);
             yield return new WaitForSeconds(1f);
@@ -368,6 +380,7 @@ namespace AdVd.GlyphRecognition
         private IEnumerator FadeInDialogue()
         {
             dialogueBox.text = currentAlien.introductionDialogue;
+            //StartCoroutine(PlayText(currentAlien.introductionDialogue));
             questionBox1.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = currentAlien.additionalQuestion[0];
             questionBox2.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = currentAlien.additionalQuestion[1];
             questionBox3.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = currentAlien.additionalQuestion[2];
@@ -384,7 +397,8 @@ namespace AdVd.GlyphRecognition
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
             speechBubbleAnimator.GetComponent<Animator>().SetTrigger("Pop");
-            dialogueBox.text = currentAlien.additionalInformationDialogue[0];
+            //dialogueBox.text = currentAlien.additionalInformationDialogue[0];
+            StartCoroutine(PlayText(currentAlien.additionalInformationDialogue[0]));
         }
 
         public void ShowDialogueOption2()
@@ -393,7 +407,8 @@ namespace AdVd.GlyphRecognition
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
             speechBubbleAnimator.GetComponent<Animator>().SetTrigger("Pop");
-            dialogueBox.text = currentAlien.additionalInformationDialogue[1];
+            //dialogueBox.text = currentAlien.additionalInformationDialogue[1];
+            StartCoroutine(PlayText(currentAlien.additionalInformationDialogue[1]));
         }
 
         public void ShowDialogueOption3()
@@ -402,7 +417,8 @@ namespace AdVd.GlyphRecognition
             ReduceTime();
             speechBubbleAnimator.SetActive(true);
             speechBubbleAnimator.GetComponent<Animator>().SetTrigger("Pop");
-            dialogueBox.text = currentAlien.additionalInformationDialogue[2];
+            //dialogueBox.text = currentAlien.additionalInformationDialogue[2];
+            StartCoroutine(PlayText(currentAlien.additionalInformationDialogue[2]));
         }
 
         public void ReduceTime()
@@ -436,6 +452,21 @@ namespace AdVd.GlyphRecognition
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
             yield return new WaitForSeconds(0.1f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
+            yield return null;
+        }
+
+        public IEnumerator PlayText(string s)
+        {
+            dialogueBox.text = "";
+            float timePerCharacter = 0.025f;
+            int characterIndex = 0;
+            while(characterIndex < s.Length)
+            {
+                yield return new WaitForSeconds(timePerCharacter);
+                dialogueBox.text = s.Substring(0, characterIndex);
+                characterIndex++;
+            }
+            dialogueBox.text = s;
             yield return null;
         }
 

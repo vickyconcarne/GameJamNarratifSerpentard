@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Asym
   m_EditorClassIdentifier: 
   symbolName: Asym
-  symbolIcon: {fileID: 21300000, guid: 10d1cfd2aa9974c5c91d30e8f484ec9f, type: 3}
+  symbolIcon: {fileID: 21300000, guid: aaad6d414b7e54c04804daa3ed897527, type: 3}
   description: "Relatif \xE0 l'absence de genre, \xE0 la personne agenre."
   motsClefs: "Agenre, asexu\xE9"

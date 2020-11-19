@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Polycephalus
   m_EditorClassIdentifier: 
   symbolName: Polycephalus
-  symbolIcon: {fileID: 21300000, guid: be0a97bca094a403785587d94ae23c03, type: 3}
+  symbolIcon: {fileID: 21300000, guid: c95dfea0cb0904cee91a4464995b49c5, type: 3}
   description: "Serpento\xEFdes \xE0 deux t\xEAtes du genre polycephalus. Originaires
     de la plan\xE8te Koipou, les Pipous naissent avec une seule t\xEAte et ont besoin
     de fusionner pour devenir des individus reproducteurs, reconnus par la societ\xE9.

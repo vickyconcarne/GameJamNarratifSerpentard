@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Limnomorpha
   m_EditorClassIdentifier: 
   symbolName: Limnomorpha
-  symbolIcon: {fileID: 21300000, guid: d00486ab5ffa44677bb96d1bd0f0d656, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 63dc978581ee0453d821ea9f26e98414, type: 3}
   description: "Cr\xE9atures g\xE9latineuses du genre Limnomorpha. Originaires de
     la plan\xE8te Blorthia. Composition physique : Bipodes sans membres ant\xE9rieurs,
     dermes glabres, s\xE9cretant des oligo-\xE9l\xE9ments (colorim\xE9trie dermique
