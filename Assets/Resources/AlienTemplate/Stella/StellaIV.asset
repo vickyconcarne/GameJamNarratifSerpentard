@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Stella IV
   characterPrefab: {fileID: 4518635339104159647, guid: bbcdd13aed1642746a27b09409a320ea, type: 3}
-  talkSound: {fileID: 0}
-  happySound: {fileID: 0}
-  angrySound: {fileID: 0}
+  talkSound: {fileID: 8300000, guid: 07a97a78f76849b45ad848ab6be05363, type: 3}
+  happySound: {fileID: 8300000, guid: 03a6a7aeea0d84247973e88f43d052d8, type: 3}
+  angrySound: {fileID: 8300000, guid: 859c88e3015b5f04bb3ccd289fe833c0, type: 3}
   positiveSymbols:
   - asym
   - gynesym
@@ -26,16 +26,16 @@ MonoBehaviour:
   negativeSymbols:
   - androsym
   numberOfCorrectSymbolsToBeSatisfied: 3
-  introductionDialogue: "Bonjour je suis le Professeur Stella VI, specialiste du
-    traitement de l'image hollographique. Je me suis brul\xE9e avec un caf\xE9 en
-    avril 2020. "
+  introductionDialogue: "Bonjour je suis le Professeur Stella VI, sp\xE9cialiste
+    du traitement de l'image holographique. Je me suis brul\xE9e avec un caf\xE9
+    en Avril 2020. "
   additionalInformationDialogue:
-  - "Je suis une blors de Blortia, nous adorons cr\xE9er de la technologie a partir
+  - "Je suis une Blors de Blortia. Nous adorons cr\xE9er de la technologie \xE0 partir
     de la nature."
-  - Il faudrait que vous vous inscriviez a mes cours pour que je vous en dise plus
-    sur l'image hollographique.
+  - "Il faudrait que vous vous inscriviez \xE0 mes cours pour que je vous en dise
+    plus sur l'image holographique."
   - "Je me suis brul\xE9e juste avant un examen et cela a inspir\xE9 le sujet de
-    ma th\xE8se. Je ne serais peut-etre pas avec vous sans ce caf\xE9. "
+    ma th\xE8se. Je ne serais peut-\xEAtre pas face \xE0 vous sans ce caf\xE9. "
   additionalQuestion:
   - "Dites m'en plus sur votre esp\xE8ce"
   - Dites m'en plus sur votre profession
