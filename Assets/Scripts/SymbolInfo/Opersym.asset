@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Opersym
   m_EditorClassIdentifier: 
   symbolName: Opersym
-  symbolIcon: {fileID: 21300000, guid: 3bab51d025e7c46d697efeccfdab25f5, type: 3}
+  symbolIcon: {fileID: 21300000, guid: df8ba0ee805154cc4a7e06ca837880d4, type: 3}
   description: "Cat\xE9gorie professionnelle regroupant des travailleurs d'ex\xE9cution
     pour le compte d'autrui, le travail manuel dans les mines, le b\xE2timent, les
     usines, les industries, les services techniques."

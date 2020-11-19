@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sauropetryx
   m_EditorClassIdentifier: 
   symbolName: Sauropetryx
-  symbolIcon: {fileID: 21300000, guid: 6c8b727de345f48c0bf5f3a1a2435d28, type: 3}
+  symbolIcon: {fileID: 21300000, guid: b0636278053424be5add382fb63ec849, type: 3}
   description: "Humano\xEFdes reptiliens du genre Sauropetryx. Originaires des diff\xE9rentes
     plan\xE8tes constituant l'Archipel Galactique. Composition physique : quadrup\xE8des
     palm\xE9s couverts de scutelles (colorim\xE9trie dermique : concolore grise),
