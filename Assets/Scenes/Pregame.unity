@@ -186,7 +186,7 @@ MonoBehaviour:
     \xE0 la copie du \"Manuel des genres et des esp\xE8ces\" sur votre bureau - STOP
     - Vous \xEAtes important pour nous -STOP -"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c4ea1dac5ae994ae28a887cb4d85ad88, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d25ef2b8ecfdc428cbd9ea96f6f10b10, type: 2}
   m_sharedMaterial: {fileID: -5241136495346891076, guid: c4ea1dac5ae994ae28a887cb4d85ad88, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &37384671
@@ -336,11 +336,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4217875674472566864, guid: 4f401aa807ebd4457ae0f8285b79f53c, type: 3}
       propertyPath: m_Name
-      value: "t\xE9l\xE9grame"
+      value: "UI_t\xE9l\xE9grame_static"
       objectReference: {fileID: 0}
     - target: {fileID: 4217875674472566864, guid: 4f401aa807ebd4457ae0f8285b79f53c, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4490666112852176959, guid: 4f401aa807ebd4457ae0f8285b79f53c, type: 3}
+      propertyPath: m_Name
+      value: cross
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575520479212954705, guid: 4f401aa807ebd4457ae0f8285b79f53c, type: 3}
+      propertyPath: m_Name
+      value: telegramme
       objectReference: {fileID: 0}
     - target: {fileID: 5692307871673483942, guid: 4f401aa807ebd4457ae0f8285b79f53c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -485,7 +493,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.4716981, g: 0.38047346, b: 0.38047346, a: 1}
+  m_BackGroundColor: {r: 0.23529413, g: 0.20000002, b: 0.14117648, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -853,16 +861,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontSize
-      value: 25.6
+      value: 27.1
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 98235daaf372849f2b647c5cbf60fb99, type: 2}
+      objectReference: {fileID: 11400000, guid: d25ef2b8ecfdc428cbd9ea96f6f10b10, type: 2}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 5328919949052349956, guid: 98235daaf372849f2b647c5cbf60fb99, type: 2}
+      objectReference: {fileID: 2229634157455417598, guid: d25ef2b8ecfdc428cbd9ea96f6f10b10, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
 --- !u!1 &2090023851
