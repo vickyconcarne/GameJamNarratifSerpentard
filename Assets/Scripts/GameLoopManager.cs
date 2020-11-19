@@ -34,6 +34,9 @@ namespace AdVd.GlyphRecognition
         public GameObject questionBox2;
         public GameObject questionBox3;
 
+        public Image bubbleSprite;
+        public List<Sprite> randomBubbleImages;
+
         [Header("Telegrams")]
         //Telegrams
         public List<string> telegramPrompts;
@@ -115,6 +118,12 @@ namespace AdVd.GlyphRecognition
                 i += 1;
             }
             initialized = true;
+        }
+
+        public void RandomizeSpeechBubble()
+        {
+            int r = Random.Range(0, randomBubbleImages.Count);
+            bubbleSprite.sprite = randomBubbleImages[r];
         }
 
         private void UpdateSymbolCount()
@@ -253,7 +262,7 @@ namespace AdVd.GlyphRecognition
             canInteract = false;
             //Hide speech bubble
             speechBubbleAnimator.SetActive(false);
-            speechBubbleAnimator.GetComponent<Image>().enabled = false;
+            speechBubbleAnimator.transform.GetChild(0).GetComponent<Image>().enabled = false;
             //Start analysis
             audioPlayer.PlayOneShot(submitAnswer, 0.3f);
             yield return new WaitForSeconds(1f);
