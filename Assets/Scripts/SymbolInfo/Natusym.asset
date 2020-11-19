@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Natusym
   m_EditorClassIdentifier: 
   symbolName: Natusym
-  symbolIcon: {fileID: 21300000, guid: 7a82ab5127330412f9b38d0dade2fba6, type: 3}
+  symbolIcon: {fileID: 21300000, guid: d2f97f2ffe2f240119506e35f26420fe, type: 3}
   description: "Cat\xE9gorie profesionnelle incluant les ouvriers de la terre, les
     agriculteurs et cultivateurs, la production de denr\xE9es alimentaires, les jardiniers,
     les vignerons."

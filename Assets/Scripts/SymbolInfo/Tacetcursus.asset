@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Tacetcursus
   m_EditorClassIdentifier: 
   symbolName: Tacetcursus
-  symbolIcon: {fileID: 21300000, guid: b7e454a30a4f548cc9eddd5db7273e9b, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 9ff5396f884634edf8cb43aa6b52c264, type: 3}
   description: "Bip\xE8des sauriens originaires des lunes soeurs glaciales et ardentes
     d'Ikshar. L'esp\xE8ce des Kyphex est tr\xE8s peu connue des autres membres de
     la coalition spatiale. Pourtant, il s'agit d'une des soci\xE9t\xE9s les plus
