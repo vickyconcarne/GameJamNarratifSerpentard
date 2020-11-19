@@ -24,7 +24,7 @@ MonoBehaviour:
   - iasiomorpha
   negativeSymbols:
   - refusym
-  numberOfCorrectSymbolsToBeSatisfied: 3
+  numberOfCorrectSymbolsToBeSatisfied: 2
   introductionDialogue: "Salut terrien, je m'appelle Liarin' et je suis Alphee. Je
     suis artisanne-jardinier \t et j'aimerai travailler \xE0 New Kinshasa, dans la
     culture des tomates.\t"
