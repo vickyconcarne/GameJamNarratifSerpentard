@@ -93,7 +93,6 @@ public class CCastDrawnGlyph : MonoBehaviour
     {
         float start = Time.realtimeSinceStartup;
         if (!m_Gdi.Cast()) if (m_Gdi.castedGlyph != null) m_Gdi.Cast(m_Gdi.castedGlyph);
-        Debug.Log("Cast time: " + (Time.realtimeSinceStartup - start));
     }
 
     public Glyph GetCustomGlyph(int glyph_index)

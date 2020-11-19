@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 53e89b92a82b44a1d93326fe8aea4887
   - enabled: 1
+    path: Assets/Lotta/scene/SceneUI.unity
+    guid: a70c7b287a57448d48c922c2ab2bfd39
+  - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1

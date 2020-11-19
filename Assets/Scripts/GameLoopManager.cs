@@ -73,7 +73,7 @@ namespace AdVd.GlyphRecognition
         [Header("Animation")]
         public GameObject alienParent;
         public FadeBlackBgController blackBackground;
-        private float timeBeforeNextConversation = 6f;
+        private float timeBeforeNextConversation = 4f;
         [Header("glyphs")]
         public GlyphSet alienSymbols;
         public Color correctSymbolColor;
@@ -400,7 +400,7 @@ namespace AdVd.GlyphRecognition
             }
             else
             {
-                //audioPlayer.PlayOneShot(currentAlien.angrySound, 0.5f);
+                audioPlayer.PlayOneShot(currentAlien.angrySound, 0.5f);
             }
             yield return new WaitForSeconds(2f);
             //Start alien departure
