@@ -47,7 +47,7 @@ namespace AdVd.GlyphRecognition
         public Animator telegramAnimator;
         public List<AudioClip> radioSounds;
 
-        private bool canShowTelegram;
+        public bool canShowTelegram;
 
         //On which alien are we
         public Alien currentAlien;
@@ -191,7 +191,7 @@ namespace AdVd.GlyphRecognition
             {
                 ShowTelegram(telegramPrompts[1]);
             }
-            if (currentTime == 4 && canShowTelegram)
+            if (currentTime == 3 && canShowTelegram)
             {
                 Debug.Log("showing last telegram prompt");
                 ShowTelegram(telegramPrompts[2]);
@@ -200,7 +200,6 @@ namespace AdVd.GlyphRecognition
 
         public void ShowTelegram(string s)
         {
-            StopCoroutine("PlayRandomTelegramSound");
             canShowTelegram = false; //Pour eviter de relancer dans l'update
             telegramText.text = s;
             blackBackground.ActivateBg();
@@ -211,14 +210,17 @@ namespace AdVd.GlyphRecognition
 
         public void HideTelegram()
         {
-            canShowTelegram = true;
+            
             Debug.Log("hiding telegram");
             blackBackground.DeactivateBg();
             telegramAnimator.SetTrigger("TelegramOut");
-            StopCoroutine("PlayRandomTelegramSound");
+            audioPlayer.Stop();
             audioPlayer.PlayOneShot(paperShuffleSound, 2f);
         }
 
+        public void CanShowTelegramAgain() {
+            canShowTelegram = true;
+        }
         
 
         public void AddNewSymbolToLayout(Glyph g)
@@ -390,7 +392,7 @@ namespace AdVd.GlyphRecognition
             }
             else
             {
-                audioPlayer.PlayOneShot(currentAlien.angrySound, 0.5f);
+                //audioPlayer.PlayOneShot(currentAlien.angrySound, 0.5f);
             }
             yield return new WaitForSeconds(2f);
             //Start alien departure
@@ -517,6 +519,7 @@ namespace AdVd.GlyphRecognition
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
             yield return new WaitForSeconds(0.1f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
+            CanShowTelegramAgain();
             yield return null;
         }
 
