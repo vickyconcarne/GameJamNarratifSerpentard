@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Sedsym
   m_EditorClassIdentifier: 
   symbolName: Sedsym
-  symbolIcon: {fileID: 21300000, guid: 511888d6deb384156b6431cc8429ea51, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 0434dafe1be11427290772ab2679e408, type: 3}
   description: "Cat\xE9gorie de personnes install\xE9es durablement dans un lieu,
     propri\xE9taires de biens immobiliers, vivants au m\xEAme endroit, implant\xE9s
     depuis des g\xE9n\xE9rations."

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Androsym
   m_EditorClassIdentifier: 
   symbolName: Androsym
-  symbolIcon: {fileID: 21300000, guid: 16777818166564d8e86f473be24081a6, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 778af7c8e10384d16b0af69a5574e74c, type: 3}
   description: "Relatif \xE0 l'homme, \xE0 la personne de genre masculin, aux cellules
     spermatiques."
   motsClefs: "Gar\xE7on, homme, m\xE2le"

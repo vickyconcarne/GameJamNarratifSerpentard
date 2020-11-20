@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Cornisym
   m_EditorClassIdentifier: 
   symbolName: Cornisym
-  symbolIcon: {fileID: 21300000, guid: e0f43492076084fc8b554bcc7829ba75, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 83c3a9fcc440d4baca0ad8b66d2a6068, type: 3}
   description: "Cat\xE9gorie regroupant les personnes d'une soci\xE9t\xE9 ascrivant
     un genre d\xE9fini par la pr\xE9sence (ou absence) d'un ou plusieurs appendices
     (cornes, tentacules, ailes, appareils g\xE9nitaux). Ces individus se sont modifi\xE9s
