@@ -57,8 +57,8 @@ namespace AdVd.GlyphRecognition
         //On which alien are we
         public Alien currentAlien;
         private int alienCounter;
-        private int satisfiedAliens;
-        private int angryAliens;
+        public int satisfiedAliens;
+        public int angryAliens;
 
         [Header("Sounds")]
         public AudioSource audioPlayer; 
@@ -138,6 +138,7 @@ namespace AdVd.GlyphRecognition
             timeSlider.minValue = minTime;
             timeSlider.value = currentTime;
             satisfiedAliens = 0;
+            angryAliens = 0;
             canShowTelegram = true;
             angryAliens = 0;
             int i = 0;
