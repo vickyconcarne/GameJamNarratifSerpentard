@@ -1293,10 +1293,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 233cca2976fd64c13a186dfcfd5fe992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SceneUI
+  sceneName: Pregame
   animatorTransitionToScene: {fileID: 809112487}
   nameOfTrigger: FinScene
-  waitTime: 1.2
+  waitTime: 1
+  soundtrackPlayer: {fileID: 1392302866}
 --- !u!1 &1288649586
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,10 +2592,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: pfb_animationtransition
       objectReference: {fileID: 0}
-    - target: {fileID: 2327416214617857489, guid: 3af6298dd9baa4458823f71c3317963f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2327416214617857490, guid: 3af6298dd9baa4458823f71c3317963f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -2678,14 +2675,6 @@ PrefabInstance:
     - target: {fileID: 2327416214617857490, guid: 3af6298dd9baa4458823f71c3317963f, type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2327416214617857500, guid: 3af6298dd9baa4458823f71c3317963f, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2327416214617857500, guid: 3af6298dd9baa4458823f71c3317963f, type: 3}
-      propertyPath: m_Enabled
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af6298dd9baa4458823f71c3317963f, type: 3}

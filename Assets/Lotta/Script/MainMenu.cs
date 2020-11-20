@@ -9,9 +9,10 @@ public class MainMenu : MonoBehaviour
     public Animator animatorTransitionToScene;
     public string nameOfTrigger;
     public float waitTime;
+    public AudioSource soundtrackPlayer;
     public void PlayGame()
     {
-        if (!goToScene)
+        if (goToScene == false)
         {
             goToScene = true;
             StartCoroutine("PlaySceneCoroutine");
@@ -28,7 +29,15 @@ public class MainMenu : MonoBehaviour
         {
             animatorTransitionToScene.SetTrigger(nameOfTrigger);
         }
+        float volume = soundtrackPlayer.volume;
+        while (volume > 0f)
+        {
+            volume -= 0.05f;
+            soundtrackPlayer.volume = volume;
+            yield return new WaitForSeconds(0.1f);
+        }
         yield return new WaitForSeconds(waitTime);
+        
         SceneManager.LoadScene(sceneName);
     }
 }
