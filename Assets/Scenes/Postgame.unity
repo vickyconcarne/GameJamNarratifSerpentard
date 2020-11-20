@@ -534,6 +534,7 @@ GameObject:
   - component: {fileID: 1227472374}
   - component: {fileID: 1227472375}
   - component: {fileID: 1227472376}
+  - component: {fileID: 1227472377}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -756,6 +757,28 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1227472377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227472369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d46a23a37c46ce4da739af0eb986a4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  telegramTextEnd: {fileID: 1628603847}
+  telegramImage: {fileID: 1628603846}
+  textOutcomes:
+  - Bonjour Agent 7X -stop- Vos statistiques de performance de traitement de dossier,
+    rejoignent nos expectatives -STOP- Bien -STOP-
+  - "Agent - STOP - Vos statistiques de traitement de dossiers sont bien en dessous
+    de nos crit\xE8res - STOP - Attention -STOP-"
+  angryAliens: 0
+  satisfiedAliens: 0
+  totalAliens: 0
 --- !u!1 &1371353227
 GameObject:
   m_ObjectHideFlags: 0
@@ -843,7 +866,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: PlaySoundsCinematic, Assembly-CSharp
+      value: MainMenu, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -856,22 +879,22 @@ PrefabInstance:
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1371353229}
+      objectReference: {fileID: 1227472375}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: PlayGame
+      value: PlayClick
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: MainMenu, Assembly-CSharp
+      value: PlaySoundsCinematic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1227472375}
+      objectReference: {fileID: 1371353229}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PlayClick
+      value: QuitGame
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -979,15 +1002,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_text
-      value: "Bonjour Agent 7X -stop- entreprenons aujourd\u2019hui grande campagne
-        de recensement pour mise \xE0 jour des donn\xE9es - STOP - Classifiez chaque
-        individu en dessinnant et associant des symboles correspondants a son profil
-        - STOP- R\xE9ferez-vous \xE0 la copie du \"Manuel des genres et des esp\xE8ces\"
-        sur votre bureau - STOP - Vous \xEAtes important pour nous -STOP -"
+      value: '
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontSize
-      value: 27.1
+      value: 36
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontAsset
@@ -1000,6 +1021,28 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 2157921295289528805, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+--- !u!114 &1628603846 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2157921296673903100, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+  m_PrefabInstance: {fileID: 1628603845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1628603847 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+  m_PrefabInstance: {fileID: 1628603845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1908783529
 GameObject:
   m_ObjectHideFlags: 0

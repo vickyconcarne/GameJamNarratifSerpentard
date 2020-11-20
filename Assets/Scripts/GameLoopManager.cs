@@ -169,6 +169,7 @@ namespace AdVd.GlyphRecognition
                     Debug.Log("End of the line!");
                     inConversation = false;
                     canInteract = false;
+                    StartCoroutine(EndOfTheLine());
                     return;
                 }
                 else if(alienCounter < aliens.Count)
@@ -186,7 +187,7 @@ namespace AdVd.GlyphRecognition
                     Debug.Log("End of the line!");
                     inConversation = false;
                     canInteract = false;
-                    
+                    StartCoroutine(EndOfTheLine());
                     return;
                 }
             }
@@ -225,7 +226,7 @@ namespace AdVd.GlyphRecognition
             PlayerPrefs.SetInt("angryAliens", angryAliens);
             PlayerPrefs.SetInt("maxAliens", aliens.Count);
             endOfTheDayText.SetActive(true);
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(3.5f);
             sceneTransitionManager.PlayGame();
         }
 
