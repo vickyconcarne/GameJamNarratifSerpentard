@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Creasym
   m_EditorClassIdentifier: 
   symbolName: Creasym
-  symbolIcon: {fileID: 21300000, guid: b89ce04a3ca8845fe8b8cc96ff1c6f26, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 208d57b5327544aceaec22a07d47b39a, type: 3}
   description: "Cat\xE9gorie professionnelle incluant les professions faisant \u0153uvres,
     les pratiques artistiques r\xE9mun\xE9r\xE9es, les m\xE9tiers manuels appliquant
     des techniques traditionnelles, les cr\xE9ateurs."

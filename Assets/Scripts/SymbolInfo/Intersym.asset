@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Intersym
   m_EditorClassIdentifier: 
   symbolName: Intersym
-  symbolIcon: {fileID: 21300000, guid: 82423952be5e140fab5e9de1a7464fba, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 23becb2a2d76b4a18950aa03c7ffb5db, type: 3}
   description: "Cat\xE9gorie d\u2019\xE2ge concernant les personnes jeunes, mais
     d\xE9j\xE0 plus autonomes et plus matures que les enfants. L\u2019\xE9tat d\u2019adolescence
     commence avec la pubert\xE9 et se termine g\xE9n\xE9ralement lorsque la cognition

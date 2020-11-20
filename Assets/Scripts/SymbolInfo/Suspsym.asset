@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Suspsym
   m_EditorClassIdentifier: 
   symbolName: Suspsym
-  symbolIcon: {fileID: 21300000, guid: 728cf0f1999414396b72f7bcfd20814a, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 9bbf322055c2e404f8a7645c12f7b359, type: 3}
   description: "Cat\xE9gorie regroupant les personnes sans emploi : enfants, \xE9tudiants,
     retrait\xE9s, invalides, diog\xE9nistes, personnes en recherche d'emploi, rentiers,
     membres de la couronne."

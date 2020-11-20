@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Refusym
   m_EditorClassIdentifier: 
   symbolName: Refusym
-  symbolIcon: {fileID: 21300000, guid: e01d81b7a931541c087b3cea843896aa, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 30286f7abd73d42e3a056bc741abfb1a, type: 3}
   description: "Cat\xE9gorie de personnes ayant quitt\xE9 leur pays, leur plan\xE8te
     par obligation, en fuite, refugi\xE9s de guerre, lanceurs d\u2019alertes, exil\xE9s,
     benificiaires d\u2019une protection de la Terre."

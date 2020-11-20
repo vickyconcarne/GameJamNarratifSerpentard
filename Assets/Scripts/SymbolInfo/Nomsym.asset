@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Nomsym
   m_EditorClassIdentifier: 
   symbolName: Nomsym
-  symbolIcon: {fileID: 21300000, guid: 6068ca1e188c142d3a604ac06f913088, type: 3}
+  symbolIcon: {fileID: 21300000, guid: d6d05dd419f504088ad78e5c0e5078a7, type: 3}
   description: "Cat\xE9gorie regroupant les personnes sans domicile fixe, voyageant
     \xE0 travers le ou les mondes, ne possedant pas biens immobiliers, transitant
     sur Terre pour une dur\xE9e courte et d\xE9termin\xE9e, ne s\u2019apparentant

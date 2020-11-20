@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Divinuphile
   m_EditorClassIdentifier: 
   symbolName: Divinuphile
-  symbolIcon: {fileID: 21300000, guid: a69e9499fe5cf4bf28778a94dfa304f7, type: 3}
+  symbolIcon: {fileID: 21300000, guid: bc7be38138cb34072b28c9063df1dde2, type: 3}
   description: "Cat\xE9gorie professionnelle apparent\xE9e aux religions, cultes
     et fois diverses (voyants, gardiens de temples, popes, missionnaires etc.) ou
     personne se revendiquant avec de fortes valeurs religieuses dictant une partie

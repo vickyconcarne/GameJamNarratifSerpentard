@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Orsym
   m_EditorClassIdentifier: 
   symbolName: Orsym
-  symbolIcon: {fileID: 21300000, guid: 0587553222f98417bb8bc77092c61549, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 8bc74f05a545e48e2b84e69014938190, type: 3}
   description: "Cat\xE9gorie professionnelle incluant les vendeurs, les restaurateurs,
     les distributeurs, les attach\xE9s commerciaux, les chef.fe.s de production marketing."
   motsClefs: commerce, transactions, immobilier

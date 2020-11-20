@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Matusym
   m_EditorClassIdentifier: 
   symbolName: Matusym
-  symbolIcon: {fileID: 21300000, guid: a8b369c0d43f94fc7a4d4d97ba743a18, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 8c533cafca1e64bb4b8a1187c117bac9, type: 3}
   description: "Cat\xE9gorie d\u2019\xE2ge concernant les personnes ayant atteint
     la maturit\xE9 sexuelle et pouvant se reproduire/procr\xE9er . Les parents ou
     responsables de cellules familiales (procr\xE9ateurs ou non) sont egalement inclus

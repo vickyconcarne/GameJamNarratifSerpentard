@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Acorpus
   m_EditorClassIdentifier: 
   symbolName: Acorpus
-  symbolIcon: {fileID: 21300000, guid: 26c330ce587bc4a60a838849778478c1, type: 3}
+  symbolIcon: {fileID: 21300000, guid: 51957e648abf649edaee8e87c5c2e046, type: 3}
   description: "Cr\xE9atures polymorphes du genre Acorpus. Originaires du satellite
     Lune (orbitant autour de la Terre). Les humains ont rencontr\xE9 tardivement
     le peuple S\xE9l\xE8ne, alors qu'il \xE9tait g\xE9ographiquement son plus proche
