@@ -981,13 +981,14 @@ PrefabInstance:
       propertyPath: m_text
       value: "Bonjour Agent 7X -stop- entreprenons aujourd\u2019hui grande campagne
         de recensement pour mise \xE0 jour des donn\xE9es - STOP - Classifiez chaque
-        individu en dessinnant et associant des symboles correspondants a son profil
-        - STOP- R\xE9ferez-vous \xE0 la copie du \"Manuel des genres et des esp\xE8ces\"
-        sur votre bureau - STOP - Vous \xEAtes important pour nous -STOP -"
+        individu en dessinnant et associant des symboles correspondants \xE0 son
+        esp\xE8ce, genre, profession, etc. - STOP- R\xE9ferez-vous \xE0 la copie
+        du \"Manuel des genres et des esp\xE8ces\" sur votre bureau - STOP - Vous
+        \xEAtes important pour nous -STOP -"
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontSize
-      value: 27.1
+      value: 26.2
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontAsset
