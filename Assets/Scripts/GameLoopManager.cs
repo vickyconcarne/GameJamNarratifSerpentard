@@ -24,6 +24,12 @@ namespace AdVd.GlyphRecognition
         public GameObject endOfTheDayText;
 
         //Sky color change
+        public Material bg1Material;
+        public Material bg2Material;
+        private Color originalBg1Color;
+        private Color originalBg2Color;
+        public Color endBg2Color;
+        public Color endBg1Color;
         public Color endColor;
         public Color selection;
         public float tColor;
@@ -136,6 +142,8 @@ namespace AdVd.GlyphRecognition
 
         private void InitializeInfo()
         {
+            originalBg1Color = bg1Material.color;
+            originalBg2Color = bg2Material.color;
             currentTime = maxTime;
             alienCounter = 0;
             inConversation = false;
@@ -229,6 +237,8 @@ namespace AdVd.GlyphRecognition
         private IEnumerator EndOfTheLine()
         {
             yield return new WaitForSeconds(1f);
+            bg1Material.color = originalBg1Color;
+            bg2Material.color = originalBg2Color;
             audioPlayer.PlayOneShot(endOfTheDaySound);
             blackBackground.ActivateBg();
             PlayerPrefs.SetInt("satisfiedAliens", satisfiedAliens);
@@ -237,6 +247,12 @@ namespace AdVd.GlyphRecognition
             endOfTheDayText.SetActive(true);
             yield return new WaitForSeconds(3.5f);
             sceneTransitionManager.PlayGame();
+        }
+
+        void OnApplicationQuit()
+        {
+            bg1Material.color = originalBg1Color;
+            bg2Material.color = originalBg2Color;
         }
 
         public void ShowTelegram(string s)
@@ -558,6 +574,8 @@ namespace AdVd.GlyphRecognition
             { // if end color not reached yet...
                 tColor += (float)1/maxTime; // advance timer at the right speed
                 gameCamera.backgroundColor = Color.Lerp(selection, endColor, tColor);
+                bg1Material.color = Color.Lerp(originalBg1Color, endBg1Color, tColor);
+                bg2Material.color = Color.Lerp(originalBg2Color, endBg2Color, tColor);
             }
         }
 
