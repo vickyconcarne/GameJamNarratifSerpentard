@@ -23,6 +23,13 @@ namespace AdVd.GlyphRecognition
         public TextMeshProUGUI tempsRestantText;
         public GameObject endOfTheDayText;
 
+        //Sky color change
+        public Color endColor;
+        public Color selection;
+        public float tColor;
+
+        public Camera gameCamera;
+
         [Header("Characters In Loop")]
         public bool canInteract;
         public bool inConversation;
@@ -141,6 +148,7 @@ namespace AdVd.GlyphRecognition
             angryAliens = 0;
             canShowTelegram = true;
             angryAliens = 0;
+            tColor = 0;
             int i = 0;
             foreach (Glyph g in alienSymbols)
             {
@@ -544,6 +552,15 @@ namespace AdVd.GlyphRecognition
             
         }
 
+        public void ChangeSkyColor()
+        {
+            if (tColor <= 1f)
+            { // if end color not reached yet...
+                tColor += (float)1/maxTime; // advance timer at the right speed
+                gameCamera.backgroundColor = Color.Lerp(selection, endColor, tColor);
+            }
+        }
+
         public IEnumerator HorlogeGonfle()
         {
             Vector3 endScale = Vector3.one * 1.7f;
@@ -558,6 +575,7 @@ namespace AdVd.GlyphRecognition
             audioPlayer.PlayOneShot(clockTickSound, 0.6f);
             tempsRestantText.text = currentTime + "H \n" + (aliens.Count - alienCounter).ToString() + " Individus"; 
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
+            ChangeSkyColor();
             yield return new WaitForSeconds(0.1f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
             CanShowTelegramAgain();
