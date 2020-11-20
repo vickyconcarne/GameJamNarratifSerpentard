@@ -1,0 +1,264 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7261967368590946490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7261967368590946495}
+  - component: {fileID: 7261967368590946488}
+  - component: {fileID: 7261967368590946489}
+  - component: {fileID: 1605391618}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7261967368590946495
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261967368590946490}
+  m_LocalRotation: {x: -0.07363851, y: 0, z: 0, w: 0.997285}
+  m_LocalPosition: {x: 125, y: -87, z: -907}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -8.446, y: 0, z: 0}
+--- !u!114 &7261967368590946488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261967368590946490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2056111539ed1543b6ade04fa9065b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentTime: 0
+  maxTime: 16
+  minTime: 0
+  timeSlider: {fileID: 0}
+  clock: {fileID: 0}
+  clockSprites:
+  - {fileID: 21300000, guid: 92dcce24e777ac24bb3a4090d966859c, type: 3}
+  - {fileID: 21300000, guid: b6904e059cc76fc459a1d143ac967d11, type: 3}
+  - {fileID: 21300000, guid: 5ede8d4b7633b02408bee1e7338fd957, type: 3}
+  - {fileID: 21300000, guid: 28c91f41a93b00248bd7b12428f4bc70, type: 3}
+  - {fileID: 21300000, guid: b958c550836d8a04ea580ad4be16d513, type: 3}
+  - {fileID: 21300000, guid: 14a79ea0426b9b54984f4d28aa0ed180, type: 3}
+  - {fileID: 21300000, guid: 157fbce6212b81844bebd63ec66d6b74, type: 3}
+  - {fileID: 21300000, guid: a626896850e929043a556b234c059b91, type: 3}
+  - {fileID: 21300000, guid: 9ea68ab1aa760ae44b2993706afd184d, type: 3}
+  - {fileID: 21300000, guid: a497bbc13524f204b8e14950f2ec96db, type: 3}
+  - {fileID: 21300000, guid: 09d7e29be94506548abbcee5535c1733, type: 3}
+  - {fileID: 21300000, guid: 3d933dd79407122469a51576be05e639, type: 3}
+  - {fileID: 21300000, guid: 4935b0727b4f816419cb2729621d64fd, type: 3}
+  - {fileID: 21300000, guid: 41d15b5fccd0a234eb2b8eb7af1cd48a, type: 3}
+  - {fileID: 21300000, guid: a93d557fa7c31054fa0810355725de28, type: 3}
+  - {fileID: 21300000, guid: c1d63c71757e0004a8e3a070421ece9e, type: 3}
+  - {fileID: 21300000, guid: 97e2ef73b1778944ab7fffdf82b795e6, type: 3}
+  sceneTransitionManager: {fileID: 0}
+  canInteract: 0
+  inConversation: 0
+  currentDialogueCounter: 0
+  aliens:
+  - {fileID: 11400000, guid: 8041c4722000f1a48b1ca6258f6d7691, type: 2}
+  - {fileID: 11400000, guid: 39c18385025c5b6408661acbdab02c8e, type: 2}
+  - {fileID: 11400000, guid: 31ae21dd73976c340bf2adea0c027ce9, type: 2}
+  - {fileID: 11400000, guid: f4b9309fcc3bbb24986bdda67a798641, type: 2}
+  - {fileID: 11400000, guid: 71ec310d96034cb45b58097d687b95d5, type: 2}
+  - {fileID: 11400000, guid: 98792ea9bcc97564c89aecc919f4aa03, type: 2}
+  - {fileID: 11400000, guid: 9c00d7394b8269e49a2a09b21e156de2, type: 2}
+  - {fileID: 11400000, guid: a507fdd69cb9cf94fb1e947c9b9fbbdb, type: 2}
+  dialogueAnimator: {fileID: 0}
+  speechBubbleAnimator: {fileID: 0}
+  dialogueBox: {fileID: 0}
+  questionBox1: {fileID: 0}
+  questionBox2: {fileID: 0}
+  questionBox3: {fileID: 0}
+  bubbleSprite: {fileID: 0}
+  randomBubbleImages:
+  - {fileID: -7089795512867868331, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: -8026610455877249512, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: 7505001636702888372, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: -1868794864967993347, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: -1267554435767501831, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: -6662896773527017298, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: 2470343330089445183, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: -6360523194911151538, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: 8191931543182307886, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: 5847584218128512686, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: 137447481486119634, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  - {fileID: -6838721613525626353, guid: 0f9390d6fa14be342bc57beaa6d2abd1, type: 3}
+  telegramPrompts:
+  - "Bonjour Agent 7X -STOP- Avons re\xE7u nouvelles directives de recensement -STOP-
+    Temps pass\xE9 par personne : 1h -STOP- Nouvel Objectif : Passer moins de 30
+    min par personne -STOP- Cette nouvelle directive remplace et annule la pr\xE9c\xE9dente
+    -STOP- Vous \xEAtes importants pour nous -STOP- L\u2019Administration vous envoie
+    ses meilleurs encouragements -STOP-"
+  - "Bonjour Agent - STOP - Plus de 12 000 individus doivent passer dans votre bureau
+    - STOP - simplifiez vos symboles -STOP- Vous \xEAtes efficient \xE0 hauteur de
+    82,3% -STOP- Il fait froid dehors, pas de raison de sortir fumer -STOP-"
+  - "Agent - STOP - Plus de 12 447 individus doivent passer dans votre bureau, vous
+    en avez fait 0,803%, c'est peu  - STOP - le service vous demande d'utiliser moins
+    de symboles -STOP- Nous a \xE9t\xE9 signal\xE9 un usage excessif du symbole \"agenre\"
+    -STOP- Fa\xEEtes au mieux - STOP -"
+  telegramText: {fileID: 0}
+  telegramAnimator: {fileID: 0}
+  radioSounds:
+  - {fileID: 8300000, guid: 11dec03d3a00ee841acd2c49afc09a8e, type: 3}
+  - {fileID: 8300000, guid: d1f5abe52f247e94694912370a6c6925, type: 3}
+  - {fileID: 8300000, guid: b04d472e7c4083542be8d8f104ebd5f6, type: 3}
+  - {fileID: 8300000, guid: 632afc8267fd9af44b0139c1cabad6b0, type: 3}
+  canShowTelegram: 0
+  currentAlien: {fileID: 0}
+  audioPlayer: {fileID: 7261967368590946489}
+  submitAnswer: {fileID: 8300000, guid: a94882ad8de669344be4ff308c5b97c6, type: 3}
+  correctSymbolSound: {fileID: 8300000, guid: f917adc052cdc1440b8d6b0dc35ceeed, type: 3}
+  incorrectSymbolSound: {fileID: 8300000, guid: eb5345c8a941ce24e86e98a65458c97e, type: 3}
+  indifferentSymbolSound: {fileID: 8300000, guid: 8028ae17ce693f448862f035bfe16abb, type: 3}
+  clockTickSound: {fileID: 8300000, guid: fbaebed54cee0f040a66c4ebd891acbc, type: 3}
+  successSound: {fileID: 8300000, guid: dc7990e272b6750419afddadeb23136a, type: 3}
+  failureSound: {fileID: 8300000, guid: fe75494ba5a2f474895eb19ef39f2051, type: 3}
+  nextAlienSound: {fileID: 0}
+  manualOpen: {fileID: 0}
+  paperShuffleSound: {fileID: 8300000, guid: 7c9a5b0c3016bbb4695a3502e2241de2, type: 3}
+  telegramEject: {fileID: 8300000, guid: 51a32f17900e52b499dd8dd4111f3168, type: 3}
+  endOfTheDaySound: {fileID: 0}
+  alienParent: {fileID: 0}
+  blackBackground: {fileID: 0}
+  alienSymbols: {fileID: 11400000, guid: 9fe4f0813c40dfc41bffc89bc7c90fe1, type: 2}
+  correctSymbolColor: {r: 0.2714779, g: 0.735849, b: 0.2256141, a: 1}
+  incorrectSymbolColor: {r: 0.754717, g: 0.18155926, b: 0.18155926, a: 1}
+  indifferentSymbolColor: {r: 0.7264151, g: 0.7264151, b: 0.7264151, a: 1}
+  addedGlyphsInConvo: []
+  addedGlyphsInGrid: []
+  gridObject: {fileID: 0}
+  resultObject: {fileID: 0}
+  symbolUIElement: {fileID: 4269803781476279657, guid: 4f4b087d475389749b7f70a6afea8902, type: 3}
+  numberOfSymbolsText: {fileID: 0}
+  resultSymbols: []
+--- !u!82 &7261967368590946489
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261967368590946490}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1605391618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7261967368590946490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233cca2976fd64c13a186dfcfd5fe992, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: 
+  animatorTransitionToScene: {fileID: 0}
+  nameOfTrigger: FinScene
+  waitTime: 1
+  soundtrackPlayer: {fileID: 0}

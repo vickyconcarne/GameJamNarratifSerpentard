@@ -20,6 +20,9 @@ namespace AdVd.GlyphRecognition
 
         public MainMenu sceneTransitionManager;
 
+        public TextMeshProUGUI tempsRestantText;
+        public GameObject endOfTheDayText;
+
         [Header("Characters In Loop")]
         public bool canInteract;
         public bool inConversation;
@@ -68,7 +71,7 @@ namespace AdVd.GlyphRecognition
         public AudioClip successSound;
         public AudioClip failureSound;
         public AudioClip nextAlienSound;
-        public AudioClip manualOpen;
+        public AudioClip manualOpenSound;
         public AudioClip paperShuffleSound;
         public AudioClip telegramEject;
         public AudioClip endOfTheDaySound;
@@ -164,6 +167,8 @@ namespace AdVd.GlyphRecognition
                 if(currentTime <= minTime)
                 {
                     Debug.Log("End of the line!");
+                    inConversation = false;
+                    canInteract = false;
                     return;
                 }
                 else if(alienCounter < aliens.Count)
@@ -179,6 +184,9 @@ namespace AdVd.GlyphRecognition
                 else
                 {
                     Debug.Log("End of the line!");
+                    inConversation = false;
+                    canInteract = false;
+                    
                     return;
                 }
             }
@@ -206,6 +214,19 @@ namespace AdVd.GlyphRecognition
                 canShowTelegram = false; //Pour eviter de relancer dans l'update
                 ShowTelegram(telegramPrompts[2]);
             }
+        }
+
+        private IEnumerator EndOfTheLine()
+        {
+            yield return new WaitForSeconds(1f);
+            audioPlayer.PlayOneShot(endOfTheDaySound);
+            blackBackground.ActivateBg();
+            PlayerPrefs.SetInt("satisfiedAliens", satisfiedAliens);
+            PlayerPrefs.SetInt("angryAliens", angryAliens);
+            PlayerPrefs.SetInt("maxAliens", aliens.Count);
+            endOfTheDayText.SetActive(true);
+            yield return new WaitForSeconds(2f);
+            sceneTransitionManager.PlayGame();
         }
 
         public void ShowTelegram(string s)
@@ -319,6 +340,11 @@ namespace AdVd.GlyphRecognition
             yield return new WaitForSeconds(1f);
             int r = Random.Range(0, radioSounds.Count);
             audioPlayer.PlayOneShot( radioSounds[r], 0.15f);
+        }
+
+        public void PlayManualOpenSound()
+        {
+            audioPlayer.PlayOneShot(manualOpenSound,2f);
         }
 
         private IEnumerator ConversationFinish()
@@ -528,6 +554,7 @@ namespace AdVd.GlyphRecognition
             // completion defaults to null if not passed in
             clock.Tween("scaleClock", clock.transform.localScale, endScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
             audioPlayer.PlayOneShot(clockTickSound, 0.6f);
+            tempsRestantText.text = currentTime + "H \n" + (aliens.Count - alienCounter).ToString() + " Individus"; 
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
             yield return new WaitForSeconds(0.1f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
