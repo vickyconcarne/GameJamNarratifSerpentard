@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 233cca2976fd64c13a186dfcfd5fe992, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: SceneUI
+  sceneName: Tuto
   animatorTransitionToScene: {fileID: 2028510728}
   nameOfTrigger: FinScene
   waitTime: 1.5
