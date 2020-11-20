@@ -18,6 +18,7 @@ public class MainMenu : MonoBehaviour
             StartCoroutine("PlaySceneCoroutine");
         }
     }
+ 
     public void QuitGame()
     {
         Application.Quit();
