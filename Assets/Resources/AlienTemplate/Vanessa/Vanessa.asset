@@ -29,8 +29,8 @@ MonoBehaviour:
   - nomsym
   numberOfCorrectSymbolsToBeSatisfied: 3
   introductionDialogue: "Bonjour Agent 7X. Je suis Vanessa, une N.O.P et mon cr\xE9ateur
-    vient de mourir.\t\\n J'en profite pour essayer de changer de statut pour ne
-    plus \xEAtre un robot m\xE9nager.\t\t"
+    vient de mourir.  J'en profite pour essayer de changer de statut pour ne plus
+    \xEAtre un robot m\xE9nager.\t\t"
   additionalInformationDialogue:
   - "Je suis un robot m\xE9nager de type 1, cr\xE9ee sur Terre il y a 2 ans, 3 mois
     et 18 jours."

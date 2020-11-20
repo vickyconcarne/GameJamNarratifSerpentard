@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public string sceneName;
     private bool goToScene = false;
     public Animator animatorTransitionToScene;
     public string nameOfTrigger;
@@ -28,6 +29,6 @@ public class MainMenu : MonoBehaviour
             animatorTransitionToScene.SetTrigger(nameOfTrigger);
         }
         yield return new WaitForSeconds(waitTime);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene(sceneName);
     }
 }
