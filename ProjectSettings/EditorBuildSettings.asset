@@ -9,14 +9,17 @@ EditorBuildSettings:
     path: Assets/Scenes/menu.unity
     guid: 53e89b92a82b44a1d93326fe8aea4887
   - enabled: 1
-    path: Assets/Scenes/SceneUI.unity
-    guid: a70c7b287a57448d48c922c2ab2bfd39
+    path: Assets/Scenes/Pregame.unity
+    guid: 3eb4732b1d1fd48f18f579640ac4c259
+  - enabled: 1
+    path: Assets/Scenes/Tuto.unity
+    guid: 823eb492cc3d90e49a6f4a9b5d366461
   - enabled: 0
     path: Assets/Scenes/GameScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Pregame.unity
-    guid: 3eb4732b1d1fd48f18f579640ac4c259
+    path: Assets/Scenes/SceneUI.unity
+    guid: a70c7b287a57448d48c922c2ab2bfd39
   - enabled: 1
     path: Assets/Scenes/Postgame.unity
     guid: cfd3046d7198bcb468ebaa033c597e96

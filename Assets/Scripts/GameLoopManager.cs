@@ -23,6 +23,19 @@ namespace AdVd.GlyphRecognition
         public TextMeshProUGUI tempsRestantText;
         public GameObject endOfTheDayText;
 
+        //Sky color change
+        public Material bg1Material;
+        public Material bg2Material;
+        private Color originalBg1Color;
+        private Color originalBg2Color;
+        public Color endBg2Color;
+        public Color endBg1Color;
+        public Color endColor;
+        public Color selection;
+        public float tColor;
+
+        public Camera gameCamera;
+
         [Header("Characters In Loop")]
         public bool canInteract;
         public bool inConversation;
@@ -129,6 +142,8 @@ namespace AdVd.GlyphRecognition
 
         private void InitializeInfo()
         {
+            originalBg1Color = bg1Material.color;
+            originalBg2Color = bg2Material.color;
             currentTime = maxTime;
             alienCounter = 0;
             inConversation = false;
@@ -141,6 +156,7 @@ namespace AdVd.GlyphRecognition
             angryAliens = 0;
             canShowTelegram = true;
             angryAliens = 0;
+            tColor = 0;
             int i = 0;
             foreach (Glyph g in alienSymbols)
             {
@@ -221,6 +237,8 @@ namespace AdVd.GlyphRecognition
         private IEnumerator EndOfTheLine()
         {
             yield return new WaitForSeconds(1f);
+            bg1Material.color = originalBg1Color;
+            bg2Material.color = originalBg2Color;
             audioPlayer.PlayOneShot(endOfTheDaySound);
             blackBackground.ActivateBg();
             PlayerPrefs.SetInt("satisfiedAliens", satisfiedAliens);
@@ -229,6 +247,12 @@ namespace AdVd.GlyphRecognition
             endOfTheDayText.SetActive(true);
             yield return new WaitForSeconds(3.5f);
             sceneTransitionManager.PlayGame();
+        }
+
+        void OnApplicationQuit()
+        {
+            bg1Material.color = originalBg1Color;
+            bg2Material.color = originalBg2Color;
         }
 
         public void ShowTelegram(string s)
@@ -544,6 +568,17 @@ namespace AdVd.GlyphRecognition
             
         }
 
+        public void ChangeSkyColor()
+        {
+            if (tColor <= 1f)
+            { // if end color not reached yet...
+                tColor += (float)1/maxTime; // advance timer at the right speed
+                gameCamera.backgroundColor = Color.Lerp(selection, endColor, tColor);
+                bg1Material.color = Color.Lerp(originalBg1Color, endBg1Color, tColor);
+                bg2Material.color = Color.Lerp(originalBg2Color, endBg2Color, tColor);
+            }
+        }
+
         public IEnumerator HorlogeGonfle()
         {
             Vector3 endScale = Vector3.one * 1.7f;
@@ -558,6 +593,7 @@ namespace AdVd.GlyphRecognition
             audioPlayer.PlayOneShot(clockTickSound, 0.6f);
             tempsRestantText.text = currentTime + "H \n" + (aliens.Count - alienCounter).ToString() + " Individus"; 
             clock.GetComponent<Image>().sprite = clockSprites[currentTime];
+            ChangeSkyColor();
             yield return new WaitForSeconds(0.1f);
             clock.Tween("scaleClock", clock.transform.localScale, beginningScale, 0.4f, TweenScaleFunctions.QuadraticEaseOut, updateSize);
             CanShowTelegramAgain();
