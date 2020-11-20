@@ -19,7 +19,7 @@ public class ManualController : MonoBehaviour
     void Start()
     {
         ComposeInitialGrid();
-        ShowInfo(manualInfo.manuelList[0]);
+        //ShowInfo(manualInfo.manuelList[0]);
     }
 
     // Update is called once per frame

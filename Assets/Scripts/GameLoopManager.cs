@@ -18,6 +18,8 @@ namespace AdVd.GlyphRecognition
         public GameObject clock;
         public List<Sprite> clockSprites = new List<Sprite>();
 
+        public MainMenu sceneTransitionManager;
+
         [Header("Characters In Loop")]
         public bool canInteract;
         public bool inConversation;
@@ -65,10 +67,11 @@ namespace AdVd.GlyphRecognition
         public AudioClip clockTickSound;
         public AudioClip successSound;
         public AudioClip failureSound;
-        public AudioClip tellMeMoreSound;
         public AudioClip nextAlienSound;
+        public AudioClip manualOpen;
         public AudioClip paperShuffleSound;
         public AudioClip telegramEject;
+        public AudioClip endOfTheDaySound;
 
         [Header("Animation")]
         public GameObject alienParent;
@@ -454,6 +457,7 @@ namespace AdVd.GlyphRecognition
             questionBox2.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = currentAlien.additionalQuestion[1];
             questionBox3.transform.GetChild(0).gameObject.GetComponent<TextMeshProUGUI>().text = currentAlien.additionalQuestion[2];
             yield return new WaitForSeconds(2f);
+            audioPlayer.PlayOneShot(currentAlien.talkSound, 0.5f);
             questionBox1.SetActive(true);
             questionBox2.SetActive(true);
             questionBox3.SetActive(true);

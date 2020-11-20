@@ -532,6 +532,8 @@ GameObject:
   - component: {fileID: 1227472371}
   - component: {fileID: 1227472370}
   - component: {fileID: 1227472374}
+  - component: {fileID: 1227472375}
+  - component: {fileID: 1227472376}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -641,6 +643,119 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1227472375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227472369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 418bfcb8e8e9d774c9210e873e406d26, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioEffects: {fileID: 1227472376}
+  telegramPrinting: {fileID: 8300000, guid: 51a32f17900e52b499dd8dd4111f3168, type: 3}
+  clickSound: {fileID: 8300000, guid: 8fc281626f52c36418ac38d1aca09190, type: 3}
+  paperSound: {fileID: 8300000, guid: 7c9a5b0c3016bbb4695a3502e2241de2, type: 3}
+  oldFlashSound: {fileID: 8300000, guid: ec52c23cac57fcf4dba750733f1c5499, type: 3}
+--- !u!82 &1227472376
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1227472369}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1371353227
 GameObject:
   m_ObjectHideFlags: 0
@@ -652,7 +767,6 @@ GameObject:
   - component: {fileID: 1371353228}
   - component: {fileID: 1371353229}
   - component: {fileID: 1371353230}
-  - component: {fileID: 1371353231}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -711,25 +825,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationTransition: {fileID: 2028510728}
   triggerName: DebutScene
---- !u!95 &1371353231
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371353227}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: e75b0eaf22853874cb1739da74d97174, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!224 &1579965686 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 2157921295289528804, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
@@ -744,11 +839,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: AdVd.GlyphRecognition.GameLoopManager, Assembly-CSharp
+      value: PlaySoundsCinematic, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
@@ -757,6 +852,30 @@ PrefabInstance:
     - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1371353229}
+    - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenu, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1227472375}
+    - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: PlayClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157921295159640566, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295289528804, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_LocalPosition.x
@@ -862,9 +981,9 @@ PrefabInstance:
       propertyPath: m_text
       value: "Bonjour Agent 7X -stop- entreprenons aujourd\u2019hui grande campagne
         de recensement pour mise \xE0 jour des donn\xE9es - STOP - Classifiez chaque
-        individu en associant des symboles correspondants a son profil - STOP- R\xE9ferez-vous
-        \xE0 la copie du \"Manuel des genres et des esp\xE8ces\" sur votre bureau
-        - STOP - Vous \xEAtes important pour nous -STOP -"
+        individu en dessinnant et associant des symboles correspondants a son profil
+        - STOP- R\xE9ferez-vous \xE0 la copie du \"Manuel des genres et des esp\xE8ces\"
+        sur votre bureau - STOP - Vous \xEAtes important pour nous -STOP -"
       objectReference: {fileID: 0}
     - target: {fileID: 2157921295353985099, guid: 1e9107c425b596344963502c20cb54ff, type: 3}
       propertyPath: m_fontSize
