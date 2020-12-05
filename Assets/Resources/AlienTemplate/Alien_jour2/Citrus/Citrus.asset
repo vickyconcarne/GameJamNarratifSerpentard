@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Citrus
+  m_EditorClassIdentifier: 
+  name: Citrus
+  characterPrefab: {fileID: 1583691982275159730, guid: 0b576ce77c618be4a941536f81e6ec3b, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - acorpus
+  - asym
+  - cersym
+  - intersym
+  - sedsym
+  negativeSymbols:
+  - androsym
+  - gynesym
+  - divinuphile
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Greetings Agent 7X. Je suis Citrus, jeune s\xE9l\xE8ne de
+    nature bleue et enseignant la Philosophie \xE0 New Kinshasa."
+  additionalInformationDialogue:
+  - "Les s\xE9l\xE8nes sont les natifs du sattellite Lune. Nous observons la Terre
+    depuis des si\xE8cles et j'ai toujours r\xEAver de venir m'y installer pour toujours. "
+  - "Le bleu ciel est ma couleur de nature, mais j'aime changer. Passer du bleu au
+    jaune est ce que je pr\xE9f\xE8re. "
+  - "L'art de la pens\xE9e et de la remise en cause... Y a t-il quoi que \xE7a soit 
+    dans l'universqui vaille plus que la philosophie ?"
+  additionalQuestion:
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - Dites m'en plus sur le bleu
+  - Dites m'en plus sur la philosophie

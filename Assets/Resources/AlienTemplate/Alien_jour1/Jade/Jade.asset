@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Jade
+  m_EditorClassIdentifier: 
+  name: Jade
+  characterPrefab: {fileID: 4518635339104159647, guid: 4010d3f9c78060741ac0efcc5480e4c3, type: 3}
+  talkSound: {fileID: 8300000, guid: 4f63aa1fdee38bc479e7919798ae35d1, type: 3}
+  happySound: {fileID: 8300000, guid: 26c0afc1912a19d48aef7a27cb07a83f, type: 3}
+  angrySound: {fileID: 8300000, guid: 896b13e7d3ae5ae448f3d263dcbe214c, type: 3}
+  positiveSymbols:
+  - gynesym
+  - homosapien
+  - creasym
+  - orsym
+  - suspsym
+  - orriculicera
+  - nomsym
+  - intersym
+  negativeSymbols:
+  - asym
+  - androsym
+  - juniosym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bonjour. Je m'appelle Jade et je suis serveuse dans un bar
+    de nuit.  C'est mon premier recensement, je viens de f\xEAter mes 18 ans."
+  additionalInformationDialogue:
+  - "Je suis humaine, comme vous le voyez, mais j'aurais aim\xE9 \xEAtre Rohart."
+  - "Mon \xE9tat civil indique \"Jeremy\" . Mais je devrais pouvoir \xEAtre enfin
+    Jade \xE0 100%, non ?"
+  - "Je suis serveuse depuis 2 ans. J'economise pour partir en Italie et apprendre
+    le m\xE9tier de souffleuse de verre."
+  additionalQuestion:
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - Dites m'en plus sur votre nom
+  - "Dites m'en plus sur votre m\xE9tier"

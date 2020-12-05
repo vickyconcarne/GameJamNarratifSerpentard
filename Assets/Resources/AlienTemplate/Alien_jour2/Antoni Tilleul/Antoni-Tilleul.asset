@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Antoni-Tilleul
+  m_EditorClassIdentifier: 
+  name: Antoni-Tilleul
+  characterPrefab: {fileID: 4518635339104159647, guid: f87beddfd493a1845a834dc48210dcaa, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - anthoerectus
+  - androsym
+  - asym
+  - divinuphile
+  - creasym
+  - nomsym
+  negativeSymbols:
+  - suspsym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Antoni-Tilleur vous salue. Je viens de Flora pour transmettre
+    la parole de La Grande Racine et pour cr\xE9er des experiences interactives destin\xE9es
+    aux humains. "
+  additionalInformationDialogue:
+  - "Je suis un architecte d'experiences de vie extra-esp\xE8ce, concues afin que
+    les diff\xE9rents aliens de l'univers apprennent \xE0 mieux se connaitre."
+  - "La grande Racine est une racine et elle est grande. Sa s\xE8ve nous guide, ses
+    feuilles nous abbreuvent, il faut la v\xE9n\xE8rer chaque jour. "
+  - "Flora est la plan\xE8te des Chlorophyliens."
+  additionalQuestion:
+  - Dites m'en plus sur vos experiences
+  - Dites m'en plus sur la Grande Racine
+  - Dites m'en plus sur votre planete

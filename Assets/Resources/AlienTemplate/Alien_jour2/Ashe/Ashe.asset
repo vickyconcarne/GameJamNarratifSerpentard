@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Ashe
+  m_EditorClassIdentifier: 
+  name: Ashe
+  characterPrefab: {fileID: 3688218306653287547, guid: 8cd04866b350907459d240a834518360, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - orriculicera
+  - gynesym
+  - forsym
+  - intersym
+  - matusym
+  - soinsym
+  negativeSymbols:
+  - androsym
+  - asym
+  - juniosym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bonjour, je m'appelle Ashe et je suis une rohart de 29 ans.
+    Chasseuse de Slirss \xE0 l'origine, sur Terre j'\xE9radique les moustiques pour
+    des particuliers. "
+  additionalInformationDialogue:
+  - Les roharts viennent de la planete HD 114762 Ab et nos cornes en disent long
+    sur nous.
+  - 'J''ai 29 ans ce qui veut dire que j''ai choisis ma place sociale, mon nom et
+    mon genre depuis 9 ans. '
+  - "J'entends et je localise un moustique tr\xE8s facilement. Les Slirss sont plus
+    durs \xE0 chasser, mais leurs piqures sont moins d\xE9sagr\xE9ables. "
+  additionalQuestion:
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - Dites m'en plus sur votre age
+  - Dites m'en plus sur les moustiques

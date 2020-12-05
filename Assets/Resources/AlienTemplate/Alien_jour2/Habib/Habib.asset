@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Habib
+  m_EditorClassIdentifier: 
+  name: Habib
+  characterPrefab: {fileID: 9034765367500599386, guid: b75e61e89fb802040b61c633417d1a34, type: 3}
+  talkSound: {fileID: 8300000, guid: 4f63aa1fdee38bc479e7919798ae35d1, type: 3}
+  happySound: {fileID: 8300000, guid: 26c0afc1912a19d48aef7a27cb07a83f, type: 3}
+  angrySound: {fileID: 8300000, guid: 896b13e7d3ae5ae448f3d263dcbe214c, type: 3}
+  positiveSymbols:
+  - androsym
+  - homosapien
+  - matusym
+  - sedsym
+  - natusym
+  - orsym
+  negativeSymbols:
+  - gynesym
+  - seniosym
+  - nomsym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Mbote, Boni ? Je suis Habib, p\xE8re de famille et le meilleur
+    vigneron de New Kinshasa depuis plus de 15 ans !"
+  additionalInformationDialogue:
+  - "Et bien je suis un humain, je suis n\xE9 et j'ai grandis a New Kinshasa"
+  - Le vin, c'est le plus beau metier du monde, le cultiver, le vendre... C'est ma
+    passion.
+  - "J'ai eu trois enfants avec mon mari. La plus grande a 12 ans, le plus jeune
+    \xE0 7 ans. "
+  additionalQuestion:
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - "Dites m'en plus sur votre m\xE9tier"
+  - Dites m'en plus sur votre famille

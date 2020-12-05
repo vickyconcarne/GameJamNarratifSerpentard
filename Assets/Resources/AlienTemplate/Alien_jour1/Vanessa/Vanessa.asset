@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Vanessa
+  m_EditorClassIdentifier: 
+  name: Vanessa
+  characterPrefab: {fileID: 4518635339104159647, guid: bc1ccd59c73501844b68af5033156cb9, type: 3}
+  talkSound: {fileID: 8300000, guid: 60a8c8428873abf4e87cc6c82dc0bd9a, type: 3}
+  happySound: {fileID: 8300000, guid: f0752325dff4aa849bff70c0a68b1910, type: 3}
+  angrySound: {fileID: 8300000, guid: 9b96708222327b5499eac54a457ec59a, type: 3}
+  positiveSymbols:
+  - gynesym
+  - NOP
+  - opersym
+  - suspsym
+  - homosapien
+  negativeSymbols:
+  - asym
+  - androsym
+  - juniosym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bonjour Agent 7X. Je suis Vanessa, une N.O.P et mon cr\xE9ateur
+    vient de mourir.  J'en profite pour essayer de changer de statut pour ne plus
+    \xEAtre un robot m\xE9nager.\t\t"
+  additionalInformationDialogue:
+  - "Je suis un robot m\xE9nager de type 1, cr\xE9ee sur Terre il y a 2 ans, 3 mois
+    et 18 jours."
+  - "Mon cr\xE9ateur m'a cod\xE9e pour etre robot m\xE9nager, mais je voudrais \xEAtre
+    un robot b\xE2tisseur."
+  - "Vanessa est un pr\xE9nom f\xE9minin invent\xE9 par Jonathan Swift et je le trouve
+    tr\xE8s agr\xE9able \xE0 porter."
+  additionalQuestion:
+  - "Dites m'en plus sur votre \xE9sp\xE8ce"
+  - "Dites m'en plus sur votre m\xE9tier"
+  - "Dites m'en plus sur votre pr\xE9nom"

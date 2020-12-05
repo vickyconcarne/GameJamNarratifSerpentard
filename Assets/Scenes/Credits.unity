@@ -1295,10 +1295,11 @@ MonoBehaviour:
     David</b>\r\n\r\nDialogues\_: \n<b>Alice David</b>\r\n\r\n\r\n\n\n\n<size=20>SOUND
     DESIGN</size>\r\n\r\nSound designer\_: \n<b>Antoni Bazaniak, Victor Meas Chazard,
     Alice David</b>\r\n\r\n\r\nBossa Nova by <b>Joth</b>\r\n\r\nHappy Birtday Bossanova
-    by <b>Jammy Jams</b>\r\n\r\n\r\nSons personnages\_: \n<b>Darsycho\_; FritzSounds\_;
-    Raclure\_; Eschwabe ; Reitanna ; Mickmon;Tim Kahn</b>\r\n\r\nBruitages\_: \n<b>Klangfabrik
-    ; Mario1298\_;gnc1000 ; jppi-stu;pushkin\_;fokshtein\_; kwahmah.</b>\r\n\r\nSources\_:
-    OpenGameArt.com & FreeSound.org\r\n"
+    by <b>Jammy Jams</b>\r\n\r\nJazz Chromatic by <b>Alex McCullogh</b>\n\r\nSons
+    personnages\_: \n<b>Darsycho\_; FritzSounds\_; Raclure\_; Eschwabe ; Reitanna
+    ; Mickmon;Tim Kahn</b>\r\n\r\nBruitages\_: \n<b>Klangfabrik ; Mario1298\_;gnc1000
+    ; jppi-stu;pushkin\_;fokshtein\_; kwahmah.</b>\r\n\r\nSources\_: OpenGameArt.com
+    & FreeSound.org\r\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 04106761ef5f8487e9f3dc547f98bbb4, type: 2}
   m_sharedMaterial: {fileID: 9163654191061079737, guid: 04106761ef5f8487e9f3dc547f98bbb4, type: 2}

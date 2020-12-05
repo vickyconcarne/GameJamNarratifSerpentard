@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Yangad
+  m_EditorClassIdentifier: 
+  name: Yangad
+  characterPrefab: {fileID: 2861677298491751708, guid: cf95c23becb569842a76165eeda2f17f, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - androsym
+  - tacetcursus
+  - cornisym
+  - forsym
+  - supsym
+  - nomsym
+  - seniosym
+  negativeSymbols:
+  - juniosym
+  - homosapien
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Salut Agent 7X.  Capitaine Yangad a votre service. Je me
+    suis install\xE9 \xE0 New Kinshasa pour prendre ma retraite, mais un soldat reste
+    un soldat pas vrai ? "
+  additionalInformationDialogue:
+  - Je me suis battu longtemps sur les lunes Ikshar mais maintenant je me repose
+    et je visite votre sympathique petite planete
+  - "Je suis un Kyphex YY, et malgr\xE9 la situation sur ma plan\xE8te, je suis fier
+    de l'\xEAtre."
+  - "Je me suis fait greffer des piques pour avoir le statut social suffisant pour
+    monter en grade dans l'arm\xE9e. Je n'ai jamais rien voulu faire d'autre que
+    Soldat et j'\xE9tais pr\xEAt \xE0 tout pour proteger et d\xE9fendre."
+  additionalQuestion:
+  - Dites m'en plus sur votre retraite
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - "Dites m'en plus sur votre m\xE9tier"
