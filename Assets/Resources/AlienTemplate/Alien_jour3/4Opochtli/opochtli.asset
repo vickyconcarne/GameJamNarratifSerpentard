@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: opochtli
+  m_EditorClassIdentifier: 
+  name: Opochtli
+  characterPrefab: {fileID: 4582132132048577140, guid: f6409d7b7ef5c204a89ea41451c8f3c0, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - gynesym
+  - aquaderma
+  - nomsym
+  - seniosym
+  - orsym
+  - creasym
+  negativeSymbols:
+  - sedsym
+  - matusym
+  - androsym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Je suis Opochtli, J'ai 36 ans, je suis directrice du Vaisseau
+    de divertissement Aquatique \"La Palourde\". C'est surement ma derni\xE8re tourn\xE9e
+    car l'un de mes cerveaux a lach\xE9. "
+  additionalInformationDialogue:
+  - "C'est ainsi chez les Atlantes, quand nous devenons trop vieux, nos cerveaux
+    meurent un \xE0 un. "
+  - "La Palourde est un parc-aquatique itin\xE9rant qui voyage dans toute la galaxie.
+    Nous sommes  arriv\xE9 en ville il y a peu, mais nous avons d\xE9j\xE0 beaucoup
+    de succ\xE8s. "
+  - "Je suis n\xE9e sur Atlantide, la grande plan\xE8te-oc\xE9an, mais la galaxie
+    enti\xE8re est ma patrie !  "
+  additionalQuestion:
+  - Dites m'en plus sur  votre cerveau
+  - Dites m'en plus sur votre vaisseau
+  - "Dites m'en plus sur votre plan\xE8te"

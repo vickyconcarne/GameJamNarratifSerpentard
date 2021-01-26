@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Algua
+  m_EditorClassIdentifier: 
+  name: Algua
+  characterPrefab: {fileID: 3334687473040261317, guid: 0d503dd9608ff364796718b299aff763, type: 3}
+  talkSound: {fileID: 8300000, guid: 60a8c8428873abf4e87cc6c82dc0bd9a, type: 3}
+  happySound: {fileID: 8300000, guid: f0752325dff4aa849bff70c0a68b1910, type: 3}
+  angrySound: {fileID: 8300000, guid: 9b96708222327b5499eac54a457ec59a, type: 3}
+  positiveSymbols:
+  - NOP
+  - asym
+  - limnomorpha
+  - opersym
+  - natusym
+  - acorpus
+  negativeSymbols:
+  - homosapien
+  - androsym
+  - gynesym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Algua L41921 au rapport. J'ai \xE9t\xE9 programm\xE9 par
+    le peuple Blors afin de travailler dans les usines de carburant vert. Mon corps
+    change reguli\xE8rement car c'est un travail qui fait rouiller. "
+  additionalInformationDialogue:
+  - "Algua est un type de NOP, L419 correspond \xE0 mon num\xE9ro propre. 21 correspond
+    au nombre de corps que j'ai occup\xE9 ces 12 derni\xE8res ann\xE9es. "
+  - "Les Blors m'ont cr\xE9e et sont les proprietaires de la plupart des usines de
+    carburant verts. Je travaille dans la seule usine de ce type implant\xE9 sur
+    Terre."
+  - "Je cultive des algues de type petrola et je les transforme \xE0 l'aide d'un
+    proced\xE9 chimique afin qu'elles servent de carburant aux vaisseaux spatiaux
+    blors."
+  additionalQuestion:
+  - Dites m'en plus sur votre nom
+  - Dites m'en plus sur les blors
+  - "Dites m'en plus sur votre m\xE9tier"

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Jo
+  m_EditorClassIdentifier: 
+  name: Jo
+  characterPrefab: {fileID: 8678869376453551993, guid: 7e392bc318fd85642a064f2420264fe4, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - sauropetryx
+  - 
+  - 
+  - 
+  - 
+  - 
+  negativeSymbols:
+  - 
+  - 
+  - 
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: 
+  additionalInformationDialogue:
+  - 
+  - 
+  - 
+  additionalQuestion:
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - Dites m'en plus sur le Grand Sommeil
+  - Dites m'en plus sur votre retraite

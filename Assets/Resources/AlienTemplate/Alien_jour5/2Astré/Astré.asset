@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: "Astr\xE9"
+  m_EditorClassIdentifier: 
+  name: "Astr\xE9"
+  characterPrefab: {fileID: 1583691982275159730, guid: 9eddacc213645be41b19a896f6b6940a, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - acorpus
+  - 
+  - 
+  - 
+  - 
+  - 
+  negativeSymbols:
+  - 
+  - 
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: 
+  additionalInformationDialogue:
+  - 
+  - 
+  - 
+  additionalQuestion:
+  - "Dites m'en plus sur votre m\xE9tier"
+  - "Dites m'en plus sur votre arriv\xE9e"
+  - Dites m'en plus sur votre nom

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Trusk
+  m_EditorClassIdentifier: 
+  name: Trusk
+  characterPrefab: {fileID: 1583691982275159730, guid: 00e5652c61f982b45a6987ca4c8148c1, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - acorpus
+  - androsym
+  - asym
+  - cersym
+  - soinsym
+  - matusym
+  negativeSymbols:
+  - gynesym
+  - juniosym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Belle Lune Agent 7X ! Je me nomme Trusk et je suis arriv\xE9
+    sur Terre il y a 30 ans pour enseigner la psychologie dans vos universit\xE9s."
+  additionalInformationDialogue:
+  - Je ne suis plus enseignant, mais psychologue. L'esprit des terriens est fascinant
+    et complexe. J'adore travailler parmi les votres.
+  - "Je suis l'un des premier s\xE9l\xE8ne \xE0 \xEAtre venu m'installer sur Terre.
+    J'ai \xE9t\xE9 accueuilli avec m\xE9fiance mais aussi curiosit\xE9."
+  - "Sur la Lune nous n'avons pas besoin de noms, nous nous reconnaissons par nos
+    couleurs et nos densit\xE9s, mais j'ai fig\xE9 ma couleur profonde sous forme
+    de vocable pour faciliter les \xE9change avec les humain.e.s"
+  additionalQuestion:
+  - "Dites m'en plus sur votre m\xE9tier"
+  - "Dites m'en plus sur votre arriv\xE9e"
+  - Dites m'en plus sur votre nom

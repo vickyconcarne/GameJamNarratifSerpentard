@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Margot
+  m_EditorClassIdentifier: 
+  name: Margot
+  characterPrefab: {fileID: 4069145360790495381, guid: 87819f3f1f7849c4082820ee521ccf86, type: 3}
+  talkSound: {fileID: 8300000, guid: 4f63aa1fdee38bc479e7919798ae35d1, type: 3}
+  happySound: {fileID: 8300000, guid: 26c0afc1912a19d48aef7a27cb07a83f, type: 3}
+  angrySound: {fileID: 8300000, guid: 896b13e7d3ae5ae448f3d263dcbe214c, type: 3}
+  positiveSymbols:
+  - homosapien
+  - gynesym
+  - intersym
+  - forsym
+  negativeSymbols:
+  - androsym
+  - adym
+  - matusym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bonjour, je m'appelle Margot. Je suis pompiere \xE0 New
+    Kinshasa, mais je suis n\xE9e et j'ai grandis sur Flora avec ma famille. "
+  additionalInformationDialogue:
+  - "J'ai 25 ans, bient\xF4t 26 ans. "
+  - "Mes parents voulaient vivre sur Flora  pour cotoyer des arbres vivants. Moi
+    et mon fr\xE8re avont v\xE9cu la bas jusqu'a nos 12 ans. Je suis fach\xE9e avec
+    ma m\xE8re car elle ne comprend pas que je ne veuille pas d'enfants."
+  - "J'ai voulu devenir pompi\xE8re apr\xE8s avoir vu de nombreux Chlorophyliens
+    mourir dans des incendies de for\xEAt sur Flora. "
+  additionalQuestion:
+  - Dites m'en plus sur votre age
+  - Dites m'en plus sur votre famille
+  - "Dites m'en plus sur votre m\xE9tier"

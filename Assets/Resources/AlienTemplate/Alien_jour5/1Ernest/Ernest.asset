@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Ernest
+  m_EditorClassIdentifier: 
+  name: Ernest
+  characterPrefab: {fileID: 4260559979458524631, guid: 54c29e13b8a1a1243a5e0aa03b0ac478, type: 3}
+  talkSound: {fileID: 8300000, guid: 60a8c8428873abf4e87cc6c82dc0bd9a, type: 3}
+  happySound: {fileID: 8300000, guid: f0752325dff4aa849bff70c0a68b1910, type: 3}
+  angrySound: {fileID: 8300000, guid: 9b96708222327b5499eac54a457ec59a, type: 3}
+  positiveSymbols:
+  - NOP
+  - 
+  - 
+  - 
+  - 
+  - 
+  negativeSymbols:
+  - 
+  - 
+  - 
+  numberOfCorrectSymbolsToBeSatisfied: 3
+  introductionDialogue: 
+  additionalInformationDialogue:
+  - 
+  - 
+  - 
+  additionalQuestion:
+  - Dites m'en plus sur votre nom
+  - Dites m'en plus sur les blors
+  - "Dites m'en plus sur votre m\xE9tier"

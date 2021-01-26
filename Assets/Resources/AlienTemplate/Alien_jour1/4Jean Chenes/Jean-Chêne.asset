@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: "Jean-Ch\xEAne"
+  m_EditorClassIdentifier: 
+  name: "Jean-Ch\xEAne"
+  characterPrefab: {fileID: 4518635339104159647, guid: f87beddfd493a1845a834dc48210dcaa, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - androsym
+  - anthoerectus
+  - forcym
+  - matucym
+  - cersym
+  negativeSymbols:
+  - natusym
+  - seniosym
+  - NOP
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Jean-Ch\xEAne vous salue. Je suis informaticien. Je viens
+    d'arriver sur Terre apr\xE8s avoir perdu toute ma descendance."
+  additionalInformationDialogue:
+  - "Jean-Ch\xEAne est un pr\xE9nom banal pour un chlorophylien."
+  - "Les \xEAtres issus de mes gam\xE8tes ont brul\xE9s dans un terrible incendie
+    l'an dernier."
+  - "Jusqu'\xE0 pr\xE9sent je travaillais surtout sur des projets de s\xE9curit\xE9
+    informatique."
+  additionalQuestion:
+  - Dites m'en plus sur votre nom
+  - Dites m'en plus sur votre descendance
+  - "Dites m'en plus sur  votre m\xE9tier"

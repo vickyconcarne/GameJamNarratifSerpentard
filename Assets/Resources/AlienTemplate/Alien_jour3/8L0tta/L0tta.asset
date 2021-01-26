@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: L0tta
+  m_EditorClassIdentifier: 
+  name: L0tta
+  characterPrefab: {fileID: 6095719717283037739, guid: 852d3805580d2a0459d09e9ba4844122, type: 3}
+  talkSound: {fileID: 8300000, guid: 60a8c8428873abf4e87cc6c82dc0bd9a, type: 3}
+  happySound: {fileID: 8300000, guid: f0752325dff4aa849bff70c0a68b1910, type: 3}
+  angrySound: {fileID: 8300000, guid: 9b96708222327b5499eac54a457ec59a, type: 3}
+  positiveSymbols:
+  - NOP
+  - asym
+  - creasym
+  - homosapien
+  - natusym
+  negativeSymbols: []
+  numberOfCorrectSymbolsToBeSatisfied: 3
+  introductionDialogue: 'Bonjour. Je suis L0tta, un robot artistique concu il y a
+    23 ans. J''aime photographier des insectes sur mon temps libre. '
+  additionalInformationDialogue:
+  - "J'adapte des oeuvres picturales en experiences de r\xE9alit\xE9 virtuelle. J'ai
+    recemment developp\xE9 une oeuvre permenant de visiter La Joconde"
+  - "J'ai \xE9t\xE9 fabriqu\xE9.e et cod\xE9.e sur la planete Terre"
+  - "La nature est fascinante pour les \xEAtre non-organiques. Les insectes sont
+    je pense les \xEAtres vivants les plus proches des robots."
+  additionalQuestion:
+  - "Dites m'en plus sur votre m\xE9tier"
+  - "Dites m'en plus sur votre eplan\xE8te"
+  - Dites m'en plus sur les insectes

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Vivi
+  m_EditorClassIdentifier: 
+  name: Vivi
+  characterPrefab: {fileID: 3688218306653287547, guid: 2ac7dcd07ecee3f4b822725fc1019ec8, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - orriculicera
+  - juniosym
+  - creasym
+  - forsym
+  - cersym
+  negativeSymbols:
+  - asym
+  - androsym
+  - gynesym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bjour. Je suis un rohart, j'ai 10 ans et n'ai pas encore
+    de nom. Je suis \xE9l\xE8ve dans une \xE9cole de design guerrio-num\xE9rique
+    par correspondance. "
+  additionalInformationDialogue:
+  - "J'apprends \xE0 cr\xE9er des guerres virtuelles dans mon \xE9cole. C'est tr\xE8s
+    chouette."
+  - "J'aime beaucoup les jeux qui existent sur Terre. Mais les humains ne veulent
+    pas me laisser les payer en kebab plutot qu'en inter-cr\xE9dit alors je ne peux
+    pas en acheter souvent. "
+  - Je n'ai pas encore l'age de choisir mon nom, mais sur Terre les gens m'appelle
+    "Vivi" car c'est plus facile pour eux.
+  additionalQuestion:
+  - Dites m'en plus sur votre ecole
+  - Dites m'en plus sur vos passions
+  - Dites m'en plus votre nom

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Ugolin
+  m_EditorClassIdentifier: 
+  name: Ugolin
+  characterPrefab: {fileID: 3152943543439176442, guid: 242ecb5bf6772b742abb97942057647e, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - gynesym
+  - orriculicera
+  - cornsym
+  - opersym
+  - intersym
+  negativeSymbols:
+  - asym
+  - matusym
+  - sedsym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: Bonjour. Je suis pilote rohart et je m'appelle Ugolin...Je
+    suis actuellement un traitement pour faire pousser ma fourrure de femme.
+  additionalInformationDialogue:
+  - "J'habite sur HD 114762 Ab, mais je suis un electron libre et je n'y ai pas de
+    famille, malgr\xE9 la pression sociale qui p\xE8se sur les Roharts en age de
+    se reproduire. "
+  - "J'ai choisis le genre social masculin \xE0 20 ans mais c'\xE9tait une erreur,
+    je sens bien que je suis une femme en r\xE9alit\xE9. J'ai donc commenc\xE9 des
+    demarches pour modifier cela mais \xE7a prend beaucoup de temps. La greffe de
+    fourrure fait partie des marqueur de f\xE9minit\xE9 essentiel pour etre reconnue. "
+  - "Je pilote des vaisseaux-taxi \xE0 travers le trou de ver. Je suis actuellement
+    en permission sur Terre, le temps que ma fourrure pousse. "
+  additionalQuestion:
+  - "Dites m'en plus sur votre plan\xE8te"
+  - Dites m'en plus sur votre fourrure
+  - "Dites m'en plus sur la m\xE9tier"

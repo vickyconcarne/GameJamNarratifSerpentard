@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Ange
+  m_EditorClassIdentifier: 
+  name: Ange
+  characterPrefab: {fileID: 3260787709407180002, guid: 8706cca71cdcaff40986f9a47bbdfe0b, type: 3}
+  talkSound: {fileID: 8300000, guid: 4f63aa1fdee38bc479e7919798ae35d1, type: 3}
+  happySound: {fileID: 8300000, guid: 26c0afc1912a19d48aef7a27cb07a83f, type: 3}
+  angrySound: {fileID: 8300000, guid: 896b13e7d3ae5ae448f3d263dcbe214c, type: 3}
+  positiveSymbols:
+  - asym
+  - cersym
+  - intersym
+  - nomsym
+  - homosapien
+  negativeSymbols:
+  - androsym
+  - gynesym
+  - matusym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bonjour, je suis Ange, journaliste pour le Kinshasa-Express.
+    Je suis passion\xE9.e par la culture Kyphex et je r\xEAve de faire un reportage
+    sur la guerre des Lunes d'Ishkar."
+  additionalInformationDialogue:
+  - "Le statut social chez les Kiphex d\xE9pend de la taille de leurs piquants dorsaux. "
+  - "Le Kinshasa-Express est le premier journal qui m'emploit, mais \xE0 terme j'aimerais
+    etre journaliste intergalactique."
+  - "Ange est un pr\xE9nom que j'aime bien. Il est genderfluid, comme moi. Je n'aime
+    pas etre enferm\xE9.e dans une case avec ses st\xE9r\xE9otypes. Et vous qu'en
+    dites vous ? "
+  additionalQuestion:
+  - Dites m'en plus sur les Kyphex
+  - "Dites m'en plus sur votre m\xE9tier"
+  - Dites m'en plus sur votre nom

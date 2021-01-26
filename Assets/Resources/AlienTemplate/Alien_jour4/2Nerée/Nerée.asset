@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: "Ner\xE9e"
+  m_EditorClassIdentifier: 
+  name: Neree
+  characterPrefab: {fileID: 4582132132048577140, guid: 2660ae20b719c7443905d810b62851e7, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - androsym
+  - aquaderma
+  - refusym
+  - matusym
+  - suspsym
+  negativeSymbols:
+  - nomsym
+  - gynesym
+  - intersym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Je suis Ner\xE9e. Je suis venu recevoir des soins m\xE9dicaux
+    sur Terre apr\xE8s une tentative de meurtre subie sur ma plan\xE8te : Atlantide
+    . Mes enfants me manquent beaucoup."
+  additionalInformationDialogue:
+  - "Je suis un Atlante, j'ai 17 ans,  ce qui correspond \xE0 environ 33 ann\xE9es
+    humaines."
+  - "Je n'ai pas de profession au sens ou vous l'entendez, je ne souhaite pas limiter
+    ma vie \xE0 ce genre de choses."
+  - "J'ai \xE9t\xE9 ligot\xE9 et jet\xE9 sur l'un des rares rivages d'Atlantide et
+    ai \xE9t\xE9 severement brul\xE9 et deshydrat\xE9. J'ai \xE9t\xE9 sauv\xE9, mais
+    les coupables n'ont pas \xE9t\xE9 identifi\xE9s."
+  additionalQuestion:
+  - "Dites m'en plus sur  votre esp\xE8ce"
+  - "Dites m'en plus sur votre m\xE9tier"
+  - Dites m'en plus sur votre agression

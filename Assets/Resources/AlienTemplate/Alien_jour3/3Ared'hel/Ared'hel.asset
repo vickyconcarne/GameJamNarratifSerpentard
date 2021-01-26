@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Ared'hel
+  m_EditorClassIdentifier: 
+  name: Ared'hel
+  characterPrefab: {fileID: 5934025687726827077, guid: 1d385cbc787fe244695293c2e2696b3d, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - iasiomorpha
+  - asym
+  - matusym
+  - sedsym
+  - cersym
+  - soinsym
+  negativeSymbols:
+  - intersym
+  - refusym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Aimables salutations homosapien. Je suis Ared'hel et j'ai
+    quitt\xE9 temporairement Alpha du Centaure et mon cabinet m\xE9dical pour accompagner
+    mon enfant qui entame des \xE9tudes sur Terre. "
+  additionalInformationDialogue:
+  - "Je soigne les mots, les phrases et les po\xE8mes. Les terriens me pertubent
+    un peu, car votre faible vocabulaire me donne l'impression d'etre entour\xE9.e
+    de patients. "
+  - "Alpha du Centaure est une tr\xE8s belle plan\xE8te. Les Alph\xE9es y exercons
+    une science du langage qui n'existe malheureusement nul part ailleurs"
+  - "Je me suis auto-fecond\xE9 il y a 16 ans et je suis tr\xE8s fi\xE8r.e de ma
+    descendance qui souhaite devenir diplomate."
+  additionalQuestion:
+  - Dites m'en plus sur votre cabinet
+  - "Dites m'en plus sur votre plan\xE8te"
+  - Dites m'en plus sur votre enfant

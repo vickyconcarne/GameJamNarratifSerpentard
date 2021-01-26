@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Oona-Acajou
+  m_EditorClassIdentifier: 
+  name: Oona-Acajou
+  characterPrefab: {fileID: 3851604999977579068, guid: 15b1da1268a3e3b4e82759e75648acf3, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - anthoerectus
+  - gynesym
+  - asym
+  - opersym
+  - sedsym
+  - matusym
+  negativeSymbols:
+  - intersym
+  - nomsym
+  - supsym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Oona-Acajou te salue. Je coordonne le chantier de modernisation
+    de ce b\xE2timent depuis que j'ai quitt\xE9 Flora il y a deux ans. Je viens pour
+    le recensement. Que les choses sont compliqu\xE9es sur Terre !"
+  additionalInformationDialogue:
+  - "Votre patron veut que le chantier avance vite, mais il n'arr\xEAte pas de nous
+    demander de la paperasse impossible, et l'on a plus le temps de bosser correctement.
+    Vous devez connaitre \xE7a vous aussi... Quelle pagaille !"
+  - "Flora est un sattelitte qui tourne autour de Alpha du Centaure. Les Chlorophylliens
+    comme moi habitent ses for\xEAts depuis des g\xE9n\xE9rations.  Mais moi j'ai
+    construit une maison ici."
+  - "J'ai chang\xE9 \"Oun\" en \"Oona\" en arrivant ici. Les humains ont des d\xE9finitions
+    diff\xE9rentes pour les \xEAtres produisant des gam\xE8tes m\xE2les et des gam\xE8tes
+    femelles et comme j'ai toujours dispers\xE9 des ovules, j'ai d\xE9cid\xE9 de
+    prendre pr\xE9nom de fille pour m'integrer. "
+  additionalQuestion:
+  - Dites m'en plus sur votre chantier
+  - Dites m'en plus sur votre planete
+  - Dites m'en plus sur  votre nom

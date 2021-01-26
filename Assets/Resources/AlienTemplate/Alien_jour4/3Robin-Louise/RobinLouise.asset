@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: RobinLouise
+  m_EditorClassIdentifier: 
+  name: RobinLouise
+  characterPrefab: {fileID: 8693895066762161944, guid: c34bc7dc0af393f4d9ac583516cbca60, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - androsym
+  - gynesym
+  - polycephalus
+  - opersym
+  - cersym
+  - natusym
+  - suspsym
+  - matusym
+  negativeSymbols:
+  - asym
+  - juniosym
+  - intersym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Hello, je sommes originaire de la planete Koipou et je s'appellons
+    Robin-Louise, je faisons une pause dans mon travail car j'attendons une port\xE9e
+    de petits."
+  additionalInformationDialogue:
+  - 'Koipou est la planete des Pipous, l''une des plus ancienne de la galaxie. J''esperons
+    que vous viendrez la visiter un jour. '
+  - "Je designons des trous de vers, c'est un art sans \xE2ge pour les Pipous.  C'est
+    tr\xE8s gentil de vous y interesser. "
+  - "Robin-Louis est le nom qui a \xE9t\xE9 obtenu lors de notre fusion. J'avons
+    du mal \xE0 comprendre comment les humains peuvent se contenter d'un seul esprit.
+    Vous devez vous sentir seuls, non ? "
+  additionalQuestion:
+  - "Dites m'en plus sur votre plan\xE8te"
+  - "Dites m'en plus sur votre m\xE9tier"
+  - Dites m'en plus sur votre nom

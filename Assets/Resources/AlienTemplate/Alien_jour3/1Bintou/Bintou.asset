@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fced4525c64c8143a9ed43d68e83888, type: 3}
+  m_Name: Bintou
+  m_EditorClassIdentifier: 
+  name: Bintou
+  characterPrefab: {fileID: 3637689816253642387, guid: fa009e59a39fd2d4ead90ed2c381a710, type: 3}
+  talkSound: {fileID: 8300000, guid: 9d6625762b6208c47be5f24d089b0b3f, type: 3}
+  happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
+  angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
+  positiveSymbols:
+  - gynesym
+  - homorhynchus
+  - intersym
+  - creasym
+  - orsym
+  - divinuphile
+  - sedsym
+  negativeSymbols:
+  - nomsym
+  - matusym
+  - androsym
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bonjour et que l'Argile vous prot\xE8ge. Je me nomme Bintou
+    et je suis joalli\xE8re sur Terre depuis 20 ans."
+  additionalInformationDialogue:
+  - "L'Argile est la divinit\xE9 qui guide ma vie. Sa texture nous enveloppe et nous
+    soigne. L'Argile est partout, plus forte que les humains ne l'imaginent. "
+  - "J'y ai pass\xE9 presque la moiti\xE9 de ma vie, et j'esp\xE8re y rester. Je
+    n'ai pas eu de descendance car je suis tomb\xE9e amoureuse d'un humain. Nous
+    vivons dans la banlieue de New Kinshasa. "
+  - "Les pierres pr\xE9cieuses sont banales sur Kepler, et pour nous les bijoux sont
+    tr\xE8s diff\xE9rents. J'aime faire d\xE9couvrir mes cr\xE9ations aux humains
+    qui les trouvent originales. "
+  additionalQuestion:
+  - Dites m'en plus sur l'argile
+  - Dites m'en plus sur votre vie sur Terre
+  - "Dites m'en plus sur votre m\xE9tier"
