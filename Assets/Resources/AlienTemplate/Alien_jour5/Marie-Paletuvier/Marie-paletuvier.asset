@@ -18,21 +18,31 @@ MonoBehaviour:
   happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
   angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
   positiveSymbols:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - androsym
+  - gynesym
+  - cersym
+  - forsym
+  - matusym
+  - seniosym
+  - creasym
+  - anthoerectus
   negativeSymbols:
-  - 
+  - nomsym
+  - asym
   numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: 
+  introductionDialogue: "Marie-Paletuvier vous salue Agent 7X. Je suis maitresse-nageur
+    \xE0 la Piscine de New-Kinshasa et je fais partie d'une association de tricot
+    amateur. "
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "Nous chlorophyliens n'avons pas vraiment besoin de v\xEAtements comme les terriens.
+    Mais c'est une activit\xE9 tr\xE8s gratifiante que je n'avais jamais eu l'occasion
+    de pratiquer avant. "
+  - "Je viens de Flora. J'y ai sem\xE9 des gametes m\xE2le et femelles : tout une
+    zone de mangrove \xE0 moi seul.e. Maintenant je suis install\xE9.e sur Terre
+    et je me consacre \xE0 mon plaisir personnel. "
+  - "J'assure la s\xE9curit\xE9 des baigneurs de la piscine et parfois je donne des
+    cours pour apprendre aux plus jeunes \xE0 nager."
   additionalQuestion:
-  - Dites m'en plus sur vos experiences
-  - Dites m'en plus sur la Grande Racine
-  - Dites m'en plus sur votre planete
+  - Dites m'en plus sur le tricot
+  - Dites m'en plus sur vos origines
+  - "Dites m'en plus sur votre m\xE9tier"

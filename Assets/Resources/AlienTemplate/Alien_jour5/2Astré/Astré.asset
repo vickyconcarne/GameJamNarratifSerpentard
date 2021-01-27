@@ -19,21 +19,28 @@ MonoBehaviour:
   angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
   positiveSymbols:
   - acorpus
-  - 
-  - 
-  - 
-  - 
-  - 
+  - asym
+  - cersym
+  - creasym
+  - desym
+  - nomsym
   negativeSymbols:
-  - 
-  - 
+  - refusym
+  - androsym
+  - gynesym
   numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: 
+  introductionDialogue: "Joyeuse Journ\xE9e ! Je suis Astr\xE9 , je viens de la Lune
+    et je travaille dans la recherche scientifique. Je fais actuellement le tour
+    de toutes les plan\xE8tes pour recenser l'avanc\xE9e des nanosciences dans la
+    galaxie."
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "La Lune abrite mon peuple : Les s\xE9l\xE8nes, qui se dif\xE9rencient les uns
+    des autres par leurs couleurs. Personellement je suis de type vert \xE0 l'origine. "
+  - "C'est mon travail et ma passion. Je cr\xE9e d'ailleurs des oeuvres d'art moleculaires
+    sur mon temps libre."
+  - "Je suis parti il y a dix ans et la Terre est ma derni\xE8re escale. Je rejoindrait
+    la Lune pour mon 30e anniversaire"
   additionalQuestion:
-  - "Dites m'en plus sur votre m\xE9tier"
-  - "Dites m'en plus sur votre arriv\xE9e"
-  - Dites m'en plus sur votre nom
+  - "Dites m'en plus sur votre esp\xE8ce"
+  - Dites m'en plus sur les nanosciences
+  - Dites m'en plus sur votre voyage

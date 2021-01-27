@@ -18,23 +18,29 @@ MonoBehaviour:
   happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
   angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
   positiveSymbols:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - gynesym
+  - sedsym
+  - soinsym
+  - matusym
+  - tacetcursus
   negativeSymbols:
-  - 
-  - 
+  - androsym
+  - refusym
+  - seniosym
   numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: 
+  introductionDialogue: "Salut Agent 7X. Chirurgienne Wafae pour vous servir. J'ai
+    25 cycle solaires et je viens d'avoir mon premier enfant. J'ai achet\xE9 une
+    maison a New Kinshasa pour l'elever loin des Lunes d'Ikshar."
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "Je l'attends depuis 8 cycles solaires. Quand j'ai appris que j'allais donner
+    la vie, j'ai quitt\xE9 ma planete pour qu'il grandisse loin de la guerre. C'est
+    un petit m\xE2le."
+  - "25 cycle solaires, cela correspond \xE0 280 ann\xE9e humaine je crois. C'est
+    un age moyen pour une Kyphex, un peu comme un.e quarantenaire sur Terre. "
+  - "J'\xE9tais chirurgienne-greffeuse pour les Kyphex : je modifiais ou ajoutais
+    leurs pics dorsaux. Sur Terre je travaille dans un cabinet de chirurgie esthetique.
+    C'est un peu pareil."
   additionalQuestion:
-  - Dites m'en plus sur votre retraite
-  - "Dites m'en plus sur votre esp\xE8ce"
+  - Dites m'en plus sur votre enfant
+  - Dites m'en plus sur votre age
   - "Dites m'en plus sur votre m\xE9tier"

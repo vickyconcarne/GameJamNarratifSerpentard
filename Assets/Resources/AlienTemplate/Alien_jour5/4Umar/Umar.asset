@@ -18,22 +18,33 @@ MonoBehaviour:
   happySound: {fileID: 8300000, guid: 009ceea084d302c46b45a25e1e824f4b, type: 3}
   angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
   positiveSymbols:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - homorhynchus
+  - androsym
+  - forsym
+  - refusym
+  - natusym
+  - intersym
   negativeSymbols:
-  - asym
+  - divinuphile
   - gynesym
+  - nomsym
+  - asym
+  - matusym
+  - juniosym
   numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: 
+  introductionDialogue: "Salutation. Je suis Umar, originaire de Kepler et refugi\xE9
+    sur Terre depuis un an. J'ai trouv\xE9 un emploi de p\xEAcheur \xE0 New Kinshasa. "
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "Kepler est une belle plan\xE8te mais... J'ai grandis dans un culte qui v\xE9n\xE8rait
+    le calcaire. Ils m'ont entrain\xE9 \xE0 espionner et a nuire \xE0 d'autres croyants.
+    Je suis content de m'\xEAtre echapp\xE9."
+  - "Le statut de refugi\xE9 ce n'est pas facile et tout est si diff\xE9rent ici.
+    Mais c'est mieux que de vivre sur Kepler. Et puis ici, personne ne va me forcer
+    \xE0 porter des enfants alors que je n'en veux pas."
+  - "Avant j'\xE9tais espion et diciple d'une religion \xE0 laquelle je ne croyais
+    pas. La p\xEAche c'est concret, c'est utile, je suis tr\xE8s heureux de faire
+    ce travail."
   additionalQuestion:
-  - Dites m'en plus sur  votre oeuf
-  - Dites m'en plus sur votre profession
-  - "Dites m'en plus sur votre esp\xE8ce"
+  - "Dites m'en plus sur  votre plan\xE8te"
+  - Dites m'en plus sur votre vie sur Terre
+  - "Dites m'en plus sur votre m\xE9tier"

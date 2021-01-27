@@ -19,20 +19,29 @@ MonoBehaviour:
   angrySound: {fileID: 8300000, guid: 896b13e7d3ae5ae448f3d263dcbe214c, type: 3}
   positiveSymbols:
   - homosapien
-  - 
-  - 
-  - 
+  - androsym
+  - soinsym
+  - opersym
+  - matusym
+  - nomsym
   negativeSymbols:
-  - 
-  - 
-  - 
+  - gynesym
+  - asym
+  - NOP
+  - intersym
   numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: 
+  introductionDialogue: Heu... Bonjour... Je m'appelle Enzo et j'ai 32 ans. Je viens
+    me faire recenser. Je suis  assistant maternelle. et je loge dans un foyer en
+    banlieu Est de New Kinshasa.
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "Oh et bien je suis un humain, mais je vis a mi-temps sur un vaisseau de liaison
+    vers Atlantide car ma compagne NOP est pilote \xE0 bord. "
+  - "Je m'occupe des jeunes enfants avant qu'ils n'entrent \xE0 l'\xE9cole. C'est
+    un beau m\xE9tier, j'\xE9sp\xE8re devenir responsable d'une cellule familiale
+    bient\xF4t."
+  - "C'est un foyer pour hommes celibataires que j'occuppe \xE0 mi-temps. Je n'aime
+    pas beaucoup y vivre, je pr\xE9f\xE8re \xEAtre en mouvement. "
   additionalQuestion:
-  - Dites m'en plus sur votre age
-  - Dites m'en plus sur votre famille
+  - "Dites m'en plus sur votre plan\xE8te"
   - "Dites m'en plus sur votre m\xE9tier"
+  - Dites m'en plus sur votre foyer

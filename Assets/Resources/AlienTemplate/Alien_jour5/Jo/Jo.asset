@@ -19,22 +19,27 @@ MonoBehaviour:
   angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
   positiveSymbols:
   - sauropetryx
-  - 
-  - 
-  - 
-  - 
-  - 
+  - androsym
+  - cersym
+  - sedsym
+  - intersym
   negativeSymbols:
-  - 
-  - 
-  - 
+  - nomsym
+  - suspsym
+  - matusym
+  - seniosym
   numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: 
+  introductionDialogue: "Bonjour Agent 7X. Je suis Maitre Jo, avocat du r\xEAve depuis
+    2029, originaire de l'archipel galactique. "
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "Je d\xE9fends des clients ayant subi des outrages en r\xEAve. C'est la raison
+    de ma pr\xE9sence sur Terre : je pr\xE9pare actuellement un proc\xE8s contre
+    un r\xEAve \xE9rotique ill\xE9gal. "
+  - "Jo est un nom de dragonite m\xE2le. Les dragonites ont souvent des noms d'une
+    seule syllabe."
+  - "J'ai eu 46 ans la semaine derni\xE8re, mais que mon jeune age ne vous induise
+    pas en erreur : je suis un avocat tr\xE8s comp\xE9te"
   additionalQuestion:
-  - "Dites m'en plus sur votre esp\xE8ce"
-  - Dites m'en plus sur le Grand Sommeil
-  - Dites m'en plus sur votre retraite
+  - "Dites m'en plus sur votre m\xE9tier"
+  - Dites m'en plus sur votre nom
+  - Dites m'en plus sur votre age

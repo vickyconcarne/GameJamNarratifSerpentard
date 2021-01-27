@@ -19,22 +19,30 @@ MonoBehaviour:
   angrySound: {fileID: 8300000, guid: 9b96708222327b5499eac54a457ec59a, type: 3}
   positiveSymbols:
   - NOP
-  - 
-  - 
-  - 
-  - 
-  - 
+  - androsym
+  - homosapien
+  - acorpus
+  - forsym
+  - opersym
+  - sedsym
   negativeSymbols:
-  - 
-  - 
-  - 
-  numberOfCorrectSymbolsToBeSatisfied: 3
-  introductionDialogue: 
+  - nomsym
+  - gynesym
+  - juniosym
+  - divinuphile
+  numberOfCorrectSymbolsToBeSatisfied: 2
+  introductionDialogue: "Bonjour, je suis Ernest. Normalement je suis un NOP sans
+    corps : je suis l'IA majordome d'une maison connect\xE9e, mais mon maitre m'a
+    construit cette apparence pour que je puisse m'adonner \xE0 ma passion : le yoga
+    ! "
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "Je suis un NOP terrien, implant\xE9 il y a 50 ans. J'\xE9tais tr\xE8s experimental
+    \xE0 l'\xE9poque."
+  - "Je m'occupe de la s\xE9curit\xE9 du manoir, du m\xE9nage... Un peu de tout.
+    Vous n'avez pas de maison intelligente vous ? "
+  - "J'adore le yoga, je trouve \xE7a \xE9trange et reposant. Vous avez l'air fatigu\xE9
+    d'ailleurs, peut-\xEAtre que \xE7a vous plairait \xE0 vous aussi?"
   additionalQuestion:
-  - Dites m'en plus sur votre nom
-  - Dites m'en plus sur les blors
+  - "Dites m'en plus sur votre plan\xE8te"
   - "Dites m'en plus sur votre m\xE9tier"
+  - Dites m'en plus sur vos loisirs

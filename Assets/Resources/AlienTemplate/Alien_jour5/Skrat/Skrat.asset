@@ -19,21 +19,27 @@ MonoBehaviour:
   angrySound: {fileID: 8300000, guid: a10a56fc39cd374449d8e5a86cdcbb7c, type: 3}
   positiveSymbols:
   - acorpus
-  - 
-  - 
-  - 
-  - 
-  - 
+  - gynesym
+  - creasym
+  - seniosym
+  - sedsym
   negativeSymbols:
-  - 
-  - 
+  - androsym
+  - asym
+  - forsym
+  - juniosym
   numberOfCorrectSymbolsToBeSatisfied: 2
-  introductionDialogue: 
+  introductionDialogue: "Bonsoir. Je suis une vieille s\xE9l\xE8ne cr\xE9atrice de
+    po\xE9sie t\xE9l\xE9pathiques. Je me nomme Skrat et mes po\xE8mes pronent l'espoir
+    et la paix. "
   additionalInformationDialogue:
-  - 
-  - 
-  - 
+  - "J'habitais sur le satellite Lune, mais la Terre correspond d'avantage \xE0 mon
+    mode de vie. J'ai d\xE9cid\xE9 d'\xEAtre une femme parmis les votres. "
+  - "Je concois des po\xE8mes d'\xE9motion pures qui se transmettent par la pens\xE9e.
+    Je m'inspire de grands auteurs terriens comme Shakespeare, Woolf ou Maitre Gims. "
+  - "J'ai 82 ans. Mais chez les s\xE9l\xE8nes c'est l'experience qui fait l'age plus
+    que le nombre de rotations autour du soleil. ."
   additionalQuestion:
-  - "Dites m'en plus sur votre m\xE9tier"
-  - "Dites m'en plus sur votre arriv\xE9e"
-  - Dites m'en plus sur votre nom
+  - "Dites m'en plus sur votre plan\xE8te"
+  - "Dites m'en plus sur vos po\xE9sies"
+  - Dites m'en plus sur votre age
